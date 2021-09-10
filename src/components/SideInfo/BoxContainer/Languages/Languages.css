@@ -1,0 +1,27 @@
+.languages {
+  color: white;
+}
+
+.languages h2 {
+  margin-bottom: 50px;
+}
+
+.languages p {
+  font-size: 0.9rem;
+}
+
+.rate {
+  display: flex;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.rate-star {
+  width: 15px;
+  height: 15px;
+  margin: 0px 2px;
+}
+
+.rate-active {
+  color: yellow;
+}

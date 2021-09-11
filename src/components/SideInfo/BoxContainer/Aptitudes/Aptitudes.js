@@ -1,18 +1,35 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Aptitudes.css";
+import { LanguageContext } from "../../../../LanguageContext";
 
+const options = {
+  ES: [
+    "Rápido aprendizaje",
+    "Resolución de problemas",
+    "Responsable",
+    "Disciplinado",
+    "Trabajo en equipo",
+    "Buenas habilidades comunicativas",
+  ],
+  EN: [
+    "Fast lerning",
+    "Problems solving",
+    "Responsible",
+    "Disciplined",
+    "Team work",
+    "Communication skills",
+  ],
+};
 function Aptitudes() {
+  const lang = useContext(LanguageContext);
   return (
     <>
       <section className="aptitudes box">
-        <h2>aptitudes</h2>
+        <h2>{lang === "ES" ? "Aptitudes" : "Soft Skills"}</h2>
         <ul>
-          <li>Rápido aprendizaje</li>
-          <li>Resolución de problemas</li>
-          <li>Responsable</li>
-          <li>Disciplinado</li>
-          <li>Trabajo en equipo</li>
-          <li>Buenas habilidades comunicativas</li>
+          {options[lang].map((skill, idx) => (
+            <li key={idx}>{skill}</li>
+          ))}
         </ul>
       </section>
     </>

@@ -1,11 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Contact.css";
+import { LanguageContext } from "../../../../LanguageContext";
 
 function Contact() {
+  const lang = useContext(LanguageContext);
   return (
     <>
       <section className="contact box">
-        <h2>Contacto</h2>
+        <h2>{lang === "ES" ? "Contacto" : "Contact"}</h2>
         <ul>
           <li>
             <i className="fas fa-map-marker-alt"></i>Córdoba. Argentina

@@ -5,7 +5,7 @@
   background-color: #eceeef;
 }
 
-section {
+.column {
   display: flex;
   flex-direction: column;
 }
@@ -52,4 +52,15 @@ p {
   font-size: 0.8rem;
   font-weight: 300;
   line-height: normal;
+}
+
+a {
+  color: inherit;
+  margin-left: 5px;
+}
+a:visited {
+  color: inherit;
+}
+a:hover {
+  font-weight: 500;
 }

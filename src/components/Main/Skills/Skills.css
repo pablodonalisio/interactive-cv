@@ -1,0 +1,22 @@
+.skills img {
+  height: 50px;
+}
+
+.skills div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skills figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 0 0 60px;
+  margin: 5px;
+}
+
+figcaption {
+  font-weight: bold;
+  margin: 2px;
+}

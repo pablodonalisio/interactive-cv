@@ -6,3 +6,31 @@
   border-bottom: 0.5px solid;
   color: rgb(49, 46, 46);
 }
+
+.box-list strong {
+  color: black;
+  font-weight: bold;
+}
+
+.box-list ul {
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+.curso-lecciones {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 200px;
+}
+
+.curso li {
+  list-style: inside;
+  margin-left: 15px;
+  line-height: 15px;
+}
+
+.curso li::marker {
+  color: #0997ff;
+  margin-right: 0;
+}

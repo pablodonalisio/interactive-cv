@@ -1,0 +1,8 @@
+.aptitudes ul {
+  font-size: 0.8rem;
+  font-weight: 300;
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  flex-direction: column;
+}

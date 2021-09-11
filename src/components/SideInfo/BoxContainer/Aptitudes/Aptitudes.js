@@ -8,10 +8,10 @@ function Aptitudes() {
         <h2>aptitudes</h2>
         <ul>
           <li>Rápido aprendizaje</li>
+          <li>Resolución de problemas</li>
           <li>Responsable</li>
           <li>Disciplinado</li>
           <li>Trabajo en equipo</li>
-          <li>Resolución de problemas</li>
           <li>Buenas habilidades comunicativas</li>
         </ul>
       </section>

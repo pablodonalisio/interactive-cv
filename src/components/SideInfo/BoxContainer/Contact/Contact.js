@@ -14,7 +14,7 @@ function Contact() {
             <i class="fas fa-envelope"></i>pablo.donalisio@gmail.com
           </li>
           <li>
-            <i class="fas fa-phone-alt"></i>351-6200037
+            <i class="fas fa-phone-alt"></i>+54 9 3516 20-0037
           </li>
           <li>
             <i class="fab fa-linkedin"></i>Pablo Donalisio

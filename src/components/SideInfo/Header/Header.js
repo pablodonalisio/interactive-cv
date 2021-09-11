@@ -10,7 +10,11 @@ const options = {
 function Header() {
   const [ocupation, setOcupation] = useState(options.ES);
   const [lang, setLang] = useState("ES");
-  const changeLanguage = (e) => setLang(e.target.innerHTML);
+  const changeLanguage = (e) => {
+    setTimeout(() => {
+      setLang(e.target.innerHTML);
+    }, 100);
+  };
 
   useEffect(() => {
     const langBtn = document.getElementById("lang");

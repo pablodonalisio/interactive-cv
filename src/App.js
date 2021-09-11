@@ -4,7 +4,7 @@ import SideInfo from "./components/SideInfo/SideInfo";
 import Main from "./components/Main/Main";
 
 function App() {
-  const [language, setLanguage] = useState("EN");
+  const [language, setLanguage] = useState("ES");
   const changeLanguage = () => {
     const lang = language === "EN" ? "ES" : "EN";
     setLanguage(lang);

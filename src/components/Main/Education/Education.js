@@ -8,7 +8,7 @@ function Education() {
         <h2>Educación</h2>
         <ul>
           <li>
-            <p>
+            <h3 className="course-title">
               <strong>
                 The Odin Project - Full Stack Ruby on Rails
                 <a
@@ -19,7 +19,7 @@ function Education() {
                   <i className="fas fa-external-link-alt"></i>
                 </a>
               </strong>
-            </p>
+            </h3>
             <p>Inicio: 2020 - Fin: 2021</p>
             <ul className="curso-lecciones">
               <li>
@@ -68,15 +68,16 @@ function Education() {
                 </ul>
               </li>
             </ul>
-            <br />
-            <p>
+          </li>
+          <li>
+            <h3 className="course-title">
               <strong>
                 Aceleración Alkemy
                 <a href="https://alkemy.org/" target="_blank" rel="noreferrer">
                   <i className="fas fa-external-link-alt"></i>
                 </a>
               </strong>
-            </p>
+            </h3>
             <p>Inicio: Abr-2021 - Fin: Jul-2021</p>
             <p>Actividades:</p>
             <ul className="curso">
@@ -88,20 +89,22 @@ function Education() {
               <li>Curso Git/Bitbucket</li>
               <li>Curso de Metodologías Agiles</li>
             </ul>
-            <br />
-            <p>
+          </li>
+          <li>
+            <h3 className="course-title">
               <strong>
                 Ingeniería Mecánica - Universidad Tecnológica Nacional
               </strong>
-            </p>
+            </h3>
             <p>Inicio: 2007 - Fin: 2012</p>
             <p>Cursado hasta 4to año de la carrera.</p>
-            <br />
-            <p>
+          </li>
+          <li>
+            <h3 className="course-title">
               <strong>
                 Bachiller en Gestion de las Organizaciones - Colegio Santo Tomás
               </strong>
-            </p>
+            </h3>
             <p>Inicio: 1994 - Fin: 2006</p>
           </li>
         </ul>

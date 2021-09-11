@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { LanguageContext } from "./LanguageContext";
 import "./App.css";
 import SideInfo from "./components/SideInfo/SideInfo";
 import Main from "./components/Main/Main";
@@ -11,10 +12,12 @@ function App() {
   };
   return (
     <div className="App">
-      <div id="curriculum">
-        <SideInfo />
-        <Main />
-      </div>
+      <LanguageContext.Provider value={language}>
+        <div id="curriculum">
+          <SideInfo />
+          <Main />
+        </div>
+      </LanguageContext.Provider>
       <button onClick={changeLanguage} id="lang">
         {language}
       </button>

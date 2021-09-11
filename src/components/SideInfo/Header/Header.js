@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
+import { LanguageContext } from "../../../LanguageContext";
 import "./Header.css";
 import photo from "./fotocurriculum.jpg";
 
@@ -9,19 +10,7 @@ const options = {
 
 function Header() {
   const [ocupation, setOcupation] = useState(options.ES);
-  const [lang, setLang] = useState("ES");
-  const changeLanguage = (e) => {
-    setTimeout(() => {
-      setLang(e.target.innerHTML);
-    }, 100);
-  };
-
-  useEffect(() => {
-    const langBtn = document.getElementById("lang");
-    langBtn.addEventListener("click", changeLanguage);
-
-    return () => langBtn.removeEventListener("click", changeLanguage);
-  }, []);
+  const lang = useContext(LanguageContext);
 
   useEffect(() => {
     setOcupation(options[lang]);

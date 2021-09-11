@@ -1,5 +1,6 @@
 import React from "react";
 import "./Languages.css";
+import Rating from "./Rating";
 
 function Languages() {
   return (
@@ -8,59 +9,11 @@ function Languages() {
         <h2>Idiomas</h2>
         <div>
           <p>Español</p>
-          <div className="rate">
-            <div className="rate-star rate-active">
-              <i className="fas fa-star"></i>
-            </div>
-            <div className="rate-star rate-active">
-              <i className="fas fa-star"></i>
-            </div>
-            <div className="rate-star rate-active">
-              <i className="fas fa-star"></i>
-            </div>
-            <div className="rate-star rate-active">
-              <i className="fas fa-star"></i>
-            </div>
-            <div className="rate-star rate-active">
-              <i className="fas fa-star"></i>
-            </div>
-          </div>
+          <Rating rate={5} />
           <p>Ingles</p>
-          <div className="rate">
-            <div className="rate-star rate-active">
-              <i className="fas fa-star"></i>
-            </div>
-            <div className="rate-star rate-active">
-              <i className="fas fa-star"></i>
-            </div>
-            <div className="rate-star rate-active">
-              <i className="fas fa-star"></i>
-            </div>
-            <div className="rate-star rate-active">
-              <i className="fas fa-star"></i>
-            </div>
-            <div className="rate-star">
-              <i className="fas fa-star"></i>
-            </div>
-          </div>
+          <Rating rate={4} />
           <p>Alemán</p>
-          <div className="rate">
-            <div className="rate-star rate-active">
-              <i className="fas fa-star"></i>
-            </div>
-            <div className="rate-star rate-active">
-              <i className="fas fa-star"></i>
-            </div>
-            <div className="rate-star">
-              <i className="fas fa-star"></i>
-            </div>
-            <div className="rate-star">
-              <i className="fas fa-star"></i>
-            </div>
-            <div className="rate-star">
-              <i className="fas fa-star"></i>
-            </div>
-          </div>
+          <Rating rate={2} />
         </div>
       </section>
     </>

@@ -1,5 +1,10 @@
 .App {
   display: flex;
+  width: 100%;
+}
+
+#curriculum {
+  display: flex;
   height: 29.6cm;
   width: 21cm;
   background-color: #eceeef;
@@ -63,4 +68,8 @@ a:visited {
 }
 a:hover {
   font-weight: 500;
+}
+
+button {
+  height: 20px;
 }

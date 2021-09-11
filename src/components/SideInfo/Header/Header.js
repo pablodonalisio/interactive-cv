@@ -7,12 +7,22 @@ const options = {
   EN: "Web Developer",
 };
 
-function Header({ lang }) {
+function Header() {
   const [ocupation, setOcupation] = useState(options.ES);
+  const [lang, setLang] = useState("ES");
+  const changeLanguage = (e) => setLang(e.target.innerHTML);
+
+  useEffect(() => {
+    const langBtn = document.getElementById("lang");
+    langBtn.addEventListener("click", changeLanguage);
+
+    return () => langBtn.removeEventListener("click", changeLanguage);
+  }, []);
 
   useEffect(() => {
     setOcupation(options[lang]);
   }, [lang]);
+
   return (
     <>
       <section className="header box">

@@ -8,32 +8,32 @@ function Contact() {
         <h2>Contacto</h2>
         <ul>
           <li>
-            <i class="fas fa-map-marker-alt"></i>Córdoba. Argentina
+            <i className="fas fa-map-marker-alt"></i>Córdoba. Argentina
           </li>
           <li>
-            <i class="fas fa-envelope"></i>pablo.donalisio@gmail.com
+            <i className="fas fa-envelope"></i>pablo.donalisio@gmail.com
           </li>
           <li>
-            <i class="fas fa-phone-alt"></i>+54 9 3516 20-0037
+            <i className="fas fa-phone-alt"></i>+54 9 3516 20-0037
           </li>
           <li>
-            <i class="fab fa-linkedin"></i>Pablo Donalisio
+            <i className="fab fa-linkedin"></i>Pablo Donalisio
             <a
               href="https://www.linkedin.com/in/pablodonalisio/"
               target="_blank"
               rel="noreferrer"
             >
-              <i class="fas fa-external-link-alt"></i>
+              <i className="fas fa-external-link-alt"></i>
             </a>
           </li>
           <li>
-            <i class="fab fa-github"></i>pablodonalisio
+            <i className="fab fa-github"></i>pablodonalisio
             <a
               href="https://github.com/pablodonalisio"
               target="_blank"
               rel="noreferrer"
             >
-              <i class="fas fa-external-link-alt"></i>
+              <i className="fas fa-external-link-alt"></i>
             </a>
           </li>
         </ul>

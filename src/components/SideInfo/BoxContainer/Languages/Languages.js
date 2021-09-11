@@ -8,57 +8,57 @@ function Languages() {
         <h2>Idiomas</h2>
         <div>
           <p>Español</p>
-          <div class="rate">
-            <div class="rate-star rate-active">
-              <i class="fas fa-star"></i>
+          <div className="rate">
+            <div className="rate-star rate-active">
+              <i className="fas fa-star"></i>
             </div>
-            <div class="rate-star rate-active">
-              <i class="fas fa-star"></i>
+            <div className="rate-star rate-active">
+              <i className="fas fa-star"></i>
             </div>
-            <div class="rate-star rate-active">
-              <i class="fas fa-star"></i>
+            <div className="rate-star rate-active">
+              <i className="fas fa-star"></i>
             </div>
-            <div class="rate-star rate-active">
-              <i class="fas fa-star"></i>
+            <div className="rate-star rate-active">
+              <i className="fas fa-star"></i>
             </div>
-            <div class="rate-star rate-active">
-              <i class="fas fa-star"></i>
+            <div className="rate-star rate-active">
+              <i className="fas fa-star"></i>
             </div>
           </div>
           <p>Ingles</p>
-          <div class="rate">
-            <div class="rate-star rate-active">
-              <i class="fas fa-star"></i>
+          <div className="rate">
+            <div className="rate-star rate-active">
+              <i className="fas fa-star"></i>
             </div>
-            <div class="rate-star rate-active">
-              <i class="fas fa-star"></i>
+            <div className="rate-star rate-active">
+              <i className="fas fa-star"></i>
             </div>
-            <div class="rate-star rate-active">
-              <i class="fas fa-star"></i>
+            <div className="rate-star rate-active">
+              <i className="fas fa-star"></i>
             </div>
-            <div class="rate-star rate-active">
-              <i class="fas fa-star"></i>
+            <div className="rate-star rate-active">
+              <i className="fas fa-star"></i>
             </div>
-            <div class="rate-star">
-              <i class="fas fa-star"></i>
+            <div className="rate-star">
+              <i className="fas fa-star"></i>
             </div>
           </div>
           <p>Alemán</p>
-          <div class="rate">
-            <div class="rate-star rate-active">
-              <i class="fas fa-star"></i>
+          <div className="rate">
+            <div className="rate-star rate-active">
+              <i className="fas fa-star"></i>
             </div>
-            <div class="rate-star rate-active">
-              <i class="fas fa-star"></i>
+            <div className="rate-star rate-active">
+              <i className="fas fa-star"></i>
             </div>
-            <div class="rate-star">
-              <i class="fas fa-star"></i>
+            <div className="rate-star">
+              <i className="fas fa-star"></i>
             </div>
-            <div class="rate-star">
-              <i class="fas fa-star"></i>
+            <div className="rate-star">
+              <i className="fas fa-star"></i>
             </div>
-            <div class="rate-star">
-              <i class="fas fa-star"></i>
+            <div className="rate-star">
+              <i className="fas fa-star"></i>
             </div>
           </div>
         </div>

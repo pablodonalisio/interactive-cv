@@ -16,15 +16,15 @@ function Education() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <i class="fas fa-external-link-alt"></i>
+                  <i className="fas fa-external-link-alt"></i>
                 </a>
               </strong>
             </p>
             <p>Inicio: 2020 - Fin: 2021</p>
-            <ul class="curso-lecciones">
+            <ul className="curso-lecciones">
               <li>
                 <p>Ruby</p>
-                <ul class="curso">
+                <ul className="curso">
                   <li>OOP</li>
                   <li>Metodos recursivos</li>
                   <li>Estructura de datos</li>
@@ -33,7 +33,7 @@ function Education() {
               </li>
               <li>
                 <p>Rails</p>
-                <ul class="curso">
+                <ul className="curso">
                   <li>MVC</li>
                   <li>ActiveRecords</li>
                   <li>Autenticación</li>
@@ -43,7 +43,7 @@ function Education() {
               </li>
               <li>
                 <p>HTML/CSS</p>
-                <ul class="curso">
+                <ul className="curso">
                   <li>HTML basics</li>
                   <li>CSS basics</li>
                   <li>Flexbox & Grid</li>
@@ -55,7 +55,7 @@ function Education() {
               </li>
               <li>
                 <p>Javascript</p>
-                <ul class="curso">
+                <ul className="curso">
                   <li>Factory Functions & Classes</li>
                   <li>Modulos</li>
                   <li>Linting</li>
@@ -73,13 +73,13 @@ function Education() {
               <strong>
                 Aceleración Alkemy
                 <a href="https://alkemy.org/" target="_blank" rel="noreferrer">
-                  <i class="fas fa-external-link-alt"></i>
+                  <i className="fas fa-external-link-alt"></i>
                 </a>
               </strong>
             </p>
             <p>Inicio: Abr-2021 - Fin: Jul-2021</p>
             <p>Actividades:</p>
-            <ul class="curso">
+            <ul className="curso">
               <li>
                 Desarrollo de API para ONG "Somos Mas" con equipo de trabajo
                 aplicando metodología SCRUM.

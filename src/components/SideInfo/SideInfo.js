@@ -3,12 +3,12 @@ import "./SideInfo.css";
 import Header from "./Header/Header";
 import BoxContainer from "./BoxContainer/BoxContainer";
 
-function SideInfo() {
+function SideInfo({ lang }) {
   return (
     <>
       <section className="side-info column">
-        <Header />
-        <BoxContainer />
+        <Header lang={lang} />
+        <BoxContainer lang={lang} />
       </section>
     </>
   );

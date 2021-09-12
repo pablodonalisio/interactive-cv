@@ -9,7 +9,7 @@ function Education() {
   return (
     <>
       <section className="education box box-list">
-        <h2>Educación</h2>
+        <h2>{lang === "ES" ? "Educación" : "Education"}</h2>
         <ul>
           {Courses[lang].map((data, idx) => (
             <Course key={idx} data={data} />

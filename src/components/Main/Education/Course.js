@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Course.css";
 import Lessons from "./Lessons";
+import { LanguageContext } from "../../../LanguageContext";
 
 function Course({ data }) {
+  const lang = useContext(LanguageContext);
   return (
     <>
       <li className="course">
@@ -17,7 +19,9 @@ function Course({ data }) {
           </strong>
         </h3>
         <p>
-          Inicio: {data.start} - Fin: {data.end}
+          {lang === "ES"
+            ? `Inicio: ${data.start} - Fin: ${data.end}`
+            : `Start: ${data.start} - End: ${data.end}`}
         </p>
         {data.description && <p>{data.description}</p>}
         {data.lessons && <Lessons lessons={data.lessons} />}

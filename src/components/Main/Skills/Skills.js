@@ -1,12 +1,14 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Skills.css";
 import { data } from "./Data";
+import { LanguageContext } from "../../../LanguageContext";
 
 function Skills() {
+  const lang = useContext(LanguageContext);
   return (
     <>
       <section className="skills box">
-        <h2>Herramientas</h2>
+        <h2>{lang === "ES" ? "Herramientas" : "Skills"}</h2>
         <div>
           {data.map((skill, idx) => {
             return (

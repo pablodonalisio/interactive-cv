@@ -45,6 +45,11 @@ export const data = {
       file: "github.png",
       type_id: 4,
     },
+    {
+      name: "Linux",
+      file: "linux.jpeg",
+      type_id: 5,
+    },
   ],
   types: [
     {
@@ -66,6 +71,11 @@ export const data = {
       id: 4,
       ES: "Control de versiones",
       EN: "Version control system",
+    },
+    {
+      id: 5,
+      ES: "Sistemas Operativos",
+      EN: "Operative systems",
     },
   ],
 };

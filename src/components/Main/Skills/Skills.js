@@ -16,7 +16,7 @@ function Skills() {
               <figure key={idx}>
                 <img
                   src={`images/${skill.file}`}
-                  alt={skill.name.toLowerCase}
+                  alt={skill.name.toLowerCase()}
                 />
                 <figcaption>{skill.name}</figcaption>
               </figure>

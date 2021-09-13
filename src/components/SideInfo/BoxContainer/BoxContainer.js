@@ -4,12 +4,12 @@ import Contact from "./Contact/Contact";
 import Aptitudes from "./Aptitudes/Aptitudes";
 import Languages from "./Languages/Languages";
 
-function BoxContainer({ lang }) {
+function BoxContainer() {
   return (
     <div className="box-container">
-      <Contact lang={lang} />
-      <Aptitudes lang={lang} />
-      <Languages lang={lang} />
+      <Contact />
+      <Aptitudes />
+      <Languages />
     </div>
   );
 }

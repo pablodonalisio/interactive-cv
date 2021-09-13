@@ -1,14 +1,13 @@
 import React, { useContext } from "react";
-import "./Course.css";
-import Lessons from "./Lessons";
-import { LanguageContext } from "../../../LanguageContext";
+import MilestoneList from "./MilestoneList";
+import { LanguageContext } from "../../LanguageContext";
 
-function Course({ data }) {
+function Milestone({ data }) {
   const lang = useContext(LanguageContext);
   return (
     <>
-      <li className="course">
-        <h3 className="course-title">
+      <li className="milestone">
+        <h3 className="milestone-title">
           <strong>
             {data.title}
             {data.url && (
@@ -24,10 +23,10 @@ function Course({ data }) {
             : `Start: ${data.start} - End: ${data.end}`}
         </p>
         {data.description && <p>{data.description}</p>}
-        {data.lessons && <Lessons lessons={data.lessons} />}
+        {data.list && <MilestoneList list={data.list} />}
       </li>
     </>
   );
 }
 
-export default Course;
+export default Milestone;

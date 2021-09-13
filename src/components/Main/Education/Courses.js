@@ -5,7 +5,7 @@ export const Courses = {
       url: "https://www.theodinproject.com/paths/full-stack-ruby-on-rails?",
       start: "2020",
       end: "2021",
-      lessons: [
+      list: [
         {
           title: "Ruby",
           structure: [
@@ -57,7 +57,7 @@ export const Courses = {
       url: "https://alkemy.org/",
       start: "Abr-2021",
       end: "Jul-2021",
-      lessons: [
+      list: [
         {
           title: "Actividades",
           structure: [
@@ -87,7 +87,7 @@ export const Courses = {
       url: "https://www.theodinproject.com/paths/full-stack-ruby-on-rails?",
       start: "2020",
       end: "2021",
-      lessons: [
+      list: [
         {
           title: "Ruby",
           structure: [
@@ -139,7 +139,7 @@ export const Courses = {
       url: "https://alkemy.org/",
       start: "Apr-2021",
       end: "Jul-2021",
-      lessons: [
+      list: [
         {
           title: "Activities",
           structure: [

@@ -2,11 +2,12 @@ import React, { useContext } from "react";
 import Milestone from "./Milestone";
 import { Milestones } from "./Milestones";
 import { LanguageContext } from "../../../LanguageContext";
+import { AreaContext } from "../../../AreaContext";
 import "./MilestoneBox.css";
 
 function MilestoneBox({ category }) {
   const lang = useContext(LanguageContext);
-  const area = "Mechanics";
+  const area = useContext(AreaContext);
   const data = Milestones[area][lang][category];
   return (
     <>

@@ -69,3 +69,7 @@ a:hover {
 button {
   height: 20px;
 }
+
+.active {
+  background-color: #76f37b;
+}

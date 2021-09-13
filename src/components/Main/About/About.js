@@ -42,13 +42,7 @@ function About() {
       <section className="about box">
         <h2>{lang === "ES" ? "Sobre mi" : "About me"}</h2>
         {options[lang].map((paragraph, idx) => {
-          if (options[lang].length === idx + 1) return <p>{paragraph}</p>;
-          return (
-            <>
-              <p>{paragraph}</p>
-              <br />
-            </>
-          );
+          return <p key={idx}>{paragraph}</p>;
         })}
       </section>
     </>

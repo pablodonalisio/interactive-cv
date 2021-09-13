@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import Milestone from "./Milestone";
 import { Milestones } from "./Milestones";
-import { LanguageContext } from "../../LanguageContext";
+import { LanguageContext } from "../../../LanguageContext";
 import "./MilestoneBox.css";
 
 function MilestoneBox({ category }) {

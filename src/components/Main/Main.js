@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import "./Main.css";
 import About from "./About/About";
-import MilestoneBox from "./MilestoneBox";
+import MilestoneBox from "./Milestone/MilestoneBox";
 import Skills from "./Skills/Skills";
 import { LanguageContext } from "../../LanguageContext";
 

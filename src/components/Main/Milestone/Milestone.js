@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import MilestoneList from "./MilestoneList";
-import { LanguageContext } from "../../LanguageContext";
+import { LanguageContext } from "../../../LanguageContext";
 import "./Milestone.css";
 
 function Milestone({ data }) {

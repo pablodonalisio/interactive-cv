@@ -1,5 +1,4 @@
 import React, { useContext } from "react";
-import "./Education.css";
 import Milestone from "../Milestone";
 import { Courses } from "./Courses";
 import { LanguageContext } from "../../../LanguageContext";

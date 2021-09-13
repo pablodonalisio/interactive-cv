@@ -1,0 +1,21 @@
+.milestone-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 200px;
+}
+
+.milestone-list-item li {
+  list-style: inside;
+  margin-left: 15px;
+  line-height: 15px;
+}
+
+.milestone-list-item li::marker {
+  color: #0997ff;
+  margin-right: 0;
+}
+
+.milestone-title {
+  margin-top: 10px;
+}

@@ -6,7 +6,8 @@ import "./MilestoneBox.css";
 
 function MilestoneBox({ category }) {
   const lang = useContext(LanguageContext);
-  const data = Milestones[lang][category];
+  const area = "Mechanics";
+  const data = Milestones[area][lang][category];
   return (
     <>
       {data && (

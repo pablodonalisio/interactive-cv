@@ -11,6 +11,7 @@ function Main() {
     <>
       <section className="main column">
         <About />
+        <MilestoneBox category={lang === "ES" ? "Experiencia" : "Experience"} />
         <MilestoneBox category={lang === "ES" ? "Educación" : "Education"} />
         <Skills />
       </section>

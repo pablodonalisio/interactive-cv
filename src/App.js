@@ -9,16 +9,20 @@ function App() {
   const [language, setLanguage] = useState("ES");
   const [area, setArea] = useState("Programming");
 
-  const changeLanguage = () => {
-    const lang = language === "EN" ? "ES" : "EN";
-    setLanguage(lang);
-  };
-
-  const changeArea = (e) => {
+  const changeActiveButton = (e) => {
     e.target.parentElement
       .getElementsByClassName("active")[0]
       .classList.toggle("active");
     e.target.classList.add("active");
+  };
+
+  const changeLanguage = (e) => {
+    changeActiveButton(e);
+    setLanguage(e.target.innerHTML);
+  };
+
+  const changeArea = (e) => {
+    changeActiveButton(e);
     setArea(e.target.innerHTML);
   };
 
@@ -33,15 +37,20 @@ function App() {
         </AreaContext.Provider>
       </LanguageContext.Provider>
       <div className="settings">
-        <p>Select language</p>
-        <button onClick={changeLanguage} id="lang">
-          {language}
-        </button>
-        <p>Select area</p>
-        <button className="active" onClick={changeArea}>
-          Programming
-        </button>
-        <button onClick={changeArea}>Mechanics</button>
+        <div>
+          <p>Select language</p>
+          <button className="active" onClick={changeLanguage}>
+            ES
+          </button>
+          <button onClick={changeLanguage}>EN</button>
+        </div>
+        <div>
+          <p>Select area</p>
+          <button className="active" onClick={changeArea}>
+            Programming
+          </button>
+          <button onClick={changeArea}>Mechanics</button>
+        </div>
       </div>
     </div>
   );

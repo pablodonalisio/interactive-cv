@@ -1,15 +1,17 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Main.css";
 import About from "./About/About";
-import Education from "./Education/Education";
+import MilestoneBox from "./MilestoneBox";
 import Skills from "./Skills/Skills";
+import { LanguageContext } from "../../LanguageContext";
 
 function Main() {
+  const lang = useContext(LanguageContext);
   return (
     <>
       <section className="main column">
         <About />
-        <Education />
+        <MilestoneBox category={lang === "ES" ? "Educación" : "Education"} />
         <Skills />
       </section>
     </>

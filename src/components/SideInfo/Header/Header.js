@@ -1,26 +1,26 @@
-import React, { useState, useEffect, useContext } from "react";
+import React, { useContext } from "react";
 import { LanguageContext } from "../../../LanguageContext";
+import { AreaContext } from "../../../AreaContext";
 import "./Header.css";
 import photo from "./fotocurriculum.jpg";
 
 const options = {
-  ES: "Desarrollador Web",
-  EN: "Web Developer",
+  Programming: {
+    ES: "Desarrollador Web",
+    EN: "Web Developer",
+  },
 };
 
 function Header() {
-  const [ocupation, setOcupation] = useState(options.ES);
   const lang = useContext(LanguageContext);
-
-  useEffect(() => {
-    setOcupation(options[lang]);
-  }, [lang]);
+  const area = useContext(AreaContext);
+  const ocupation = options[area] ? options[area][lang] : false;
 
   return (
     <>
       <section className="header box">
         <h1>Pablo Donalisio</h1>
-        <p id="profesion">{ocupation}</p>
+        {ocupation && <p id="profesion">{ocupation}</p>}
         <img id="photo" src={photo} alt="Foto de Pablo Donalisio" />
       </section>
     </>

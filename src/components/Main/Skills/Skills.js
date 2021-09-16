@@ -2,10 +2,14 @@ import React, { useContext } from "react";
 import "./Skills.css";
 import { data } from "./Data";
 import { LanguageContext } from "../../../LanguageContext";
+import { AreaContext } from "../../../AreaContext";
 
 function Skills() {
   const lang = useContext(LanguageContext);
-  const skills = data.skills.sort((a, b) => (a.type_id < b.type_id ? -1 : 1));
+  const area = useContext(AreaContext);
+  const skills = data[area].skills.sort((a, b) =>
+    a.type_id < b.type_id ? -1 : 1
+  );
   return (
     <>
       <section className="skills box">

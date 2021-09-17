@@ -2,6 +2,41 @@ export const Programming = {
   ES: {
     Educación: [
       {
+        title: "The Odin Project - NodeJs, Express, MongoDB",
+        url: "https://www.theodinproject.com/paths/full-stack-javascript/courses/nodejs",
+        start: "Ago-2021",
+        end: "En curso",
+        list: [
+          {
+            title: "NodeJs",
+            structure: [
+              "Express",
+              "MongoDB",
+              "Authentication",
+              "APIs",
+              "Testing",
+            ],
+          },
+        ],
+      },
+      {
+        title: "Aceleración Alkemy",
+        url: "https://alkemy.org/",
+        start: "Abr-2021",
+        end: "Jul-2021",
+        list: [
+          {
+            title: "Actividades",
+            structure: [
+              "Desarrollo de API para ONG 'Somos Mas' con equipo de trabajo aplicando metodología SCRUM.",
+              "Desarrollo de aplicaciones APIRest",
+              "Curso Git/Bitbucket",
+              "Curso de Metodologías Agiles",
+            ],
+          },
+        ],
+      },
+      {
         title: "The Odin Project - Full Stack Ruby on Rails",
         url: "https://www.theodinproject.com/paths/full-stack-ruby-on-rails?",
         start: "2020",
@@ -54,23 +89,6 @@ export const Programming = {
         ],
       },
       {
-        title: "Aceleración Alkemy",
-        url: "https://alkemy.org/",
-        start: "Abr-2021",
-        end: "Jul-2021",
-        list: [
-          {
-            title: "Actividades",
-            structure: [
-              "Desarrollo de API para ONG 'Somos Mas' con equipo de trabajo aplicando metodología SCRUM.",
-              "Desarrollo de aplicaciones APIRest",
-              "Curso Git/Bitbucket",
-              "Curso de Metodologías Agiles",
-            ],
-          },
-        ],
-      },
-      {
         title: "Ingeniería Mecánica - Universidad Tecnológica Nacional",
         start: "2007",
         end: "2012",
@@ -86,6 +104,41 @@ export const Programming = {
   },
   EN: {
     Education: [
+      {
+        title: "The Odin Project - NodeJs, Express, MongoDB",
+        url: "https://www.theodinproject.com/paths/full-stack-javascript/courses/nodejs",
+        start: "Aug-2021",
+        end: "Present",
+        list: [
+          {
+            title: "NodeJs",
+            structure: [
+              "Express",
+              "MongoDB",
+              "Authentication",
+              "APIs",
+              "Testing",
+            ],
+          },
+        ],
+      },
+      {
+        title: "Alkemy Acceleration",
+        url: "https://alkemy.org/",
+        start: "Apr-2021",
+        end: "Jul-2021",
+        list: [
+          {
+            title: "Activities",
+            structure: [
+              "API development for NGO 'Somos Mas' applying SCRUM method.",
+              "APIRest development.",
+              "Git/Bitbucket course.",
+              "Agile methodologies course.",
+            ],
+          },
+        ],
+      },
       {
         title: "The Odin Project - Full Stack Ruby on Rails",
         url: "https://www.theodinproject.com/paths/full-stack-ruby-on-rails?",
@@ -134,23 +187,6 @@ export const Programming = {
               "AsyncJs",
               "ReactJs",
               "Testing",
-            ],
-          },
-        ],
-      },
-      {
-        title: "Alkemy Acceleration",
-        url: "https://alkemy.org/",
-        start: "Apr-2021",
-        end: "Jul-2021",
-        list: [
-          {
-            title: "Activities",
-            structure: [
-              "API development for NGO 'Somos Mas' applying SCRUM method.",
-              "APIRest development.",
-              "Git/Bitbucket course.",
-              "Agile methodologies course.",
             ],
           },
         ],

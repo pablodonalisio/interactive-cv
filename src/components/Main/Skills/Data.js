@@ -51,6 +51,16 @@ export const data = {
         file: "linux.jpeg",
         type_id: 5,
       },
+      {
+        name: "NodeJs",
+        file: "nodejs.jpeg",
+        type_id: 2,
+      },
+      {
+        name: "MongoDB",
+        file: "mongodb.jpeg",
+        type_id: 3,
+      },
     ],
     types: [
       {

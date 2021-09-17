@@ -17,10 +17,6 @@ const options = {
         "aprender lenguajes de programación, " +
         "frameworks, herramientas para el " +
         "desarrollo y muchas cosas más",
-      "Mi meta última es poder quizás algún día poder combinar estas dos apasionantes " +
-        "áreas, lo cual requiere de mucho esfuerzo, " +
-        "aprendiendo todos los días un poco más y creciendo a partir " +
-        "de la  experiencia.",
     ],
     EN: [
       "I've studied up to 4th year of Mechanical Engineering's Degree at " +
@@ -33,8 +29,6 @@ const options = {
         "dictated by The Odin Project. There I've learned programming " +
         "languages, frameworks, " +
         " development tools and many other things.",
-      "My ultimate goal is to be able to mix these two exciting areas, which requires " +
-        "a lot of effort, learning new things everyday and getting more experienced.",
     ],
   },
 };

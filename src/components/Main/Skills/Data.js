@@ -61,6 +61,11 @@ export const data = {
         file: "mongodb.jpeg",
         type_id: 3,
       },
+      {
+        name: "Heroku",
+        file: "heroku.jpeg",
+        type_id: 6,
+      },
     ],
     types: [
       {
@@ -87,6 +92,11 @@ export const data = {
         id: 5,
         ES: "Sistemas Operativos",
         EN: "Operative systems",
+      },
+      {
+        id: 6,
+        ES: "Nube",
+        EN: "Cloud",
       },
     ],
   },

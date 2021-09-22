@@ -101,6 +101,49 @@ export const Programming = {
         end: "2006",
       },
     ],
+    Experiencia: [
+      {
+        title: "Independiente - Programador CNC / Diseñador CAD/CAM",
+        start: "2017",
+        end: "2021",
+      },
+      {
+        title: "IMAPRO SRL / MetalCast - Encargado de planta",
+        start: "2007",
+        end: "2017",
+        list: [
+          {
+            title: "Programacion CNC",
+            structure: [
+              "Fresa CNC Fagor",
+              "Programación a pie de máquina",
+              "Programación CAD/CAM",
+              "Software utilizado: CAMWorks",
+            ],
+          },
+          {
+            title: "Diseño",
+            structure: [
+              "Relevamiento de piezas",
+              "Diseño 2D/3D",
+              "Software utilizado: SolidWorks",
+            ],
+          },
+          {
+            title: "Gestión de la producción",
+            structure: [
+              "Estimación de tiempos",
+              "Carga horaria de máquinas",
+              "Selección de procesos productivos",
+              "Pedido de materiales",
+              "Seguimiento",
+              "Reportes de eficiencia",
+              "Personas a cargo: 12",
+            ],
+          },
+        ],
+      },
+    ],
   },
   EN: {
     Education: [
@@ -194,7 +237,7 @@ export const Programming = {
       {
         title: "Ingeniería Mecánica - Universidad Tecnológica Nacional",
         start: "2007",
-        end: "2012",
+        end: "2014",
         description: "Cursado hasta 4to año de la carrera.",
       },
       {
@@ -202,6 +245,46 @@ export const Programming = {
           "Bachiller en Gestión de las Organizaciones - Colegio Santo Tomás",
         start: "1994",
         end: "2006",
+      },
+    ],
+    Experience: [
+      {
+        title: "Freelance - CNC Programmer / CAD/CAM Designer",
+        start: "2017",
+        end: "2021",
+      },
+      {
+        title: "IMAPRO SRL / MetalCast - Plant manager",
+        start: "2015",
+        end: "2017",
+        list: [
+          {
+            title: "CNC Programming",
+            structure: [
+              "Fagor CNC Mill",
+              "Machined-based programming",
+              "CAD/CAM Programming",
+              "Software: CAMWorks",
+            ],
+          },
+          {
+            title: "Design",
+            structure: ["Parts survey", "2D/3D Design", "Software: SolidWorks"],
+          },
+          {
+            title: "Production managment",
+            structure: [
+              "Time estimation",
+              "Hourly load of machines",
+              "Production processes selection",
+              "Materials ordering",
+              "Dependents: 12",
+              "Follow-up",
+              "Efficiency reports",
+              "Dependents: 12",
+            ],
+          },
+        ],
       },
     ],
   },

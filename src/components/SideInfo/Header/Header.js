@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
 import { LanguageContext } from "../../../LanguageContext";
-import { AreaContext } from "../../../AreaContext";
 import "./Header.css";
 import photo from "./fotocurriculum.jpg";
 
@@ -13,8 +12,7 @@ const options = {
 
 function Header() {
   const lang = useContext(LanguageContext);
-  const area = useContext(AreaContext);
-  const ocupation = options[area] ? options[area][lang] : false;
+  const ocupation = options[lang];
 
   return (
     <>

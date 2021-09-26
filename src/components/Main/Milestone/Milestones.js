@@ -6,18 +6,6 @@ export const Milestones = {
         url: "https://www.theodinproject.com/paths/full-stack-javascript/courses/nodejs",
         start: "Ago-2021",
         end: "En curso",
-        list: [
-          {
-            title: "NodeJs",
-            structure: [
-              "Express",
-              "MongoDB",
-              "Authentication",
-              "APIs",
-              "Testing",
-            ],
-          },
-        ],
       },
       {
         title: "Aceleración Alkemy",
@@ -152,18 +140,6 @@ export const Milestones = {
         url: "https://www.theodinproject.com/paths/full-stack-javascript/courses/nodejs",
         start: "Aug-2021",
         end: "Present",
-        list: [
-          {
-            title: "NodeJs",
-            structure: [
-              "Express",
-              "MongoDB",
-              "Authentication",
-              "APIs",
-              "Testing",
-            ],
-          },
-        ],
       },
       {
         title: "Alkemy Acceleration",

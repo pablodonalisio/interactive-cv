@@ -1,10 +1,25 @@
-import React, { useContext } from "react";
+import React, { useState, useContext, useEffect, useRef } from "react";
 import MilestoneList from "./MilestoneList";
 import { LanguageContext } from "../../../LanguageContext";
 import "./Milestone.css";
 
 function Milestone({ data }) {
   const lang = useContext(LanguageContext);
+  const [showList, setShowList] = useState(false);
+  const showListBtn = useRef();
+  const toggleShowListBtn = () => {
+    const btn = showListBtn.current;
+    if (btn) btn.classList.toggle("hidden");
+  };
+  useEffect(() => {
+    const curriculum = document.getElementById("curriculum");
+    curriculum.addEventListener("mouseout", toggleShowListBtn);
+    curriculum.addEventListener("mouseover", toggleShowListBtn);
+    return () => {
+      curriculum.removeEventListener("mouseout", toggleShowListBtn);
+      curriculum.removeEventListener("mouseover", toggleShowListBtn);
+    };
+  }, []);
   return (
     <>
       <li className="milestone">
@@ -17,6 +32,19 @@ function Milestone({ data }) {
               </a>
             )}
           </strong>
+          {data.list && (
+            <button
+              className="show-list-btn hidden"
+              ref={showListBtn}
+              onClick={() => setShowList(!showList)}
+            >
+              {showList ? (
+                <i className="fas fa-caret-square-up"></i>
+              ) : (
+                <i className="fas fa-caret-square-down"></i>
+              )}
+            </button>
+          )}
         </h3>
         <p>
           {lang === "ES"
@@ -24,7 +52,7 @@ function Milestone({ data }) {
             : `Start: ${data.start} - End: ${data.end}`}
         </p>
         {data.description && <p>{data.description}</p>}
-        {data.list && <MilestoneList list={data.list} />}
+        {showList && data.list && <MilestoneList list={data.list} />}
       </li>
     </>
   );

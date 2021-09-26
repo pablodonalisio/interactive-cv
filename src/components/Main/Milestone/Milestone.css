@@ -6,3 +6,11 @@
   color: black;
   font-weight: bold;
 }
+
+.show-list-btn {
+  border: none;
+}
+
+.hidden {
+  display: none;
+}

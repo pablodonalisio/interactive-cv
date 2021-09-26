@@ -5,7 +5,6 @@ import SettingsBox from "./SettingsBox";
 
 const data = {
   ES: {
-    areaTitle: "Seleccione un area",
     lang: {
       title: "seleccione un idioma",
       options: [
@@ -13,9 +12,15 @@ const data = {
         { value: "EN", active: false },
       ],
     },
+    area: {
+      title: "seleccione un área",
+      options: [
+        { value: "programming", text: "Programación", active: true },
+        { value: "mechanics", text: "Mecánica", active: true },
+      ],
+    },
   },
   EN: {
-    areaTitle: "Select area",
     lang: {
       title: "select language",
       options: [
@@ -23,17 +28,22 @@ const data = {
         { value: "EN", active: false },
       ],
     },
+    area: {
+      title: "select area",
+      options: [
+        { value: "programming", text: "Programming", active: true },
+        { value: "mechanics", text: "Mechanics", active: true },
+      ],
+    },
   },
 };
 function SettingsPanel() {
-  const { lang, setLang } = useGlobalContext();
+  const { lang, setLang, setArea } = useGlobalContext();
   return (
     <div className="settings-panel">
       <SettingsBox data={data[lang].lang} setValue={setLang} />
       <hr />
-      <div className="settings-box">
-        <h2>{data[lang].areaTitle}</h2>
-      </div>
+      <SettingsBox data={data[lang].area} setValue={setArea} />
     </div>
   );
 }

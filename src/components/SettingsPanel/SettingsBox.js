@@ -1,14 +1,13 @@
 import React, { useState } from "react";
 
 function SettingsBox({ data, setValue }) {
-  const { title } = data;
-  const [options, setOptions] = useState(data.options);
+  const { title, options } = data;
+  const [activeBtns, setActiveBtns] = useState(
+    options.map((option) => option.active)
+  );
   const changeActiveButton = (idx) => {
-    setOptions(
-      options.map((option, index) => {
-        option.active = index === idx ? true : false;
-        return option;
-      })
+    setActiveBtns(
+      activeBtns.map((active, index) => (index === idx ? true : false))
     );
   };
 
@@ -21,14 +20,15 @@ function SettingsBox({ data, setValue }) {
       <h2>{title}</h2>
       <div className="btn-container">
         {options.map((option, idx) => {
-          const { value, active } = option;
+          const { value, text } = option;
+          const isActive = activeBtns[idx];
           return (
             <button
               key={idx}
-              className={`settings-btn ${active && "active"}`}
+              className={`settings-btn ${isActive && "active"}`}
               onClick={() => changeValue(value, idx)}
             >
-              {value}
+              {text || value}
             </button>
           );
         })}

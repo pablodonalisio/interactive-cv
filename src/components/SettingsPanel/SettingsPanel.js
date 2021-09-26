@@ -41,9 +41,9 @@ function SettingsPanel() {
   const { lang, setLang, setArea } = useGlobalContext();
   return (
     <div className="settings-panel">
-      <SettingsBox data={data[lang].lang} setValue={setLang} />
+      <SettingsBox data={data[lang].lang} setValue={setLang} type="select" />
       <hr />
-      <SettingsBox data={data[lang].area} setValue={setArea} />
+      <SettingsBox data={data[lang].area} setValue={setArea} type="combo" />
     </div>
   );
 }

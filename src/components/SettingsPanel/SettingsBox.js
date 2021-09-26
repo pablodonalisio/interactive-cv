@@ -1,18 +1,25 @@
 import React, { useState } from "react";
 
-function SettingsBox({ data, setValue }) {
+function SettingsBox({ data, setValue, type }) {
   const { title, options } = data;
   const [activeBtns, setActiveBtns] = useState(
     options.map((option) => option.active)
   );
   const changeActiveButton = (idx) => {
     setActiveBtns(
-      activeBtns.map((active, index) => (index === idx ? true : false))
+      activeBtns.map((state, index) => (index === idx ? true : false))
+    );
+  };
+  const toggleButton = (idx) => {
+    setActiveBtns(
+      activeBtns.map((state, index) => (index === idx ? !state : state))
     );
   };
 
   const changeValue = (value, idx) => {
-    changeActiveButton(idx);
+    if (type === "select") changeActiveButton(idx);
+    if (type === "combo") toggleButton(idx);
+    console.log(activeBtns);
     setValue(value);
   };
   return (
@@ -20,12 +27,12 @@ function SettingsBox({ data, setValue }) {
       <h2>{title}</h2>
       <div className="btn-container">
         {options.map((option, idx) => {
+          console.log("hello");
           const { value, text } = option;
-          const isActive = activeBtns[idx];
           return (
             <button
               key={idx}
-              className={`settings-btn ${isActive && "active"}`}
+              className={`settings-btn ${activeBtns[idx] && "active"}`}
               onClick={() => changeValue(value, idx)}
             >
               {text || value}

@@ -1,11 +1,12 @@
-import React, { useContext } from "react";
+import React from "react";
 import Milestone from "./Milestone";
 import { Milestones } from "./Milestones";
-import { LanguageContext } from "../../../LanguageContext";
+import { useGlobalContext } from "../../../context";
 import "./MilestoneBox.css";
 
 function MilestoneBox({ category }) {
-  const lang = useContext(LanguageContext);
+  const { lang } = useGlobalContext();
+
   const data = Milestones[lang][category];
   return (
     <>

@@ -1,10 +1,11 @@
-import React, { useContext } from "react";
+import React from "react";
 import "./Skills.css";
 import { data } from "./Data";
-import { LanguageContext } from "../../../LanguageContext";
+import { useGlobalContext } from "../../../context";
 
 function Skills() {
-  const lang = useContext(LanguageContext);
+  const { lang } = useGlobalContext();
+
   const skills = data.skills.sort((a, b) => (a.type_id < b.type_id ? -1 : 1));
   return (
     <>

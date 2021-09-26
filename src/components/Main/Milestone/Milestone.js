@@ -1,10 +1,10 @@
-import React, { useState, useContext, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import MilestoneList from "./MilestoneList";
-import { LanguageContext } from "../../../LanguageContext";
+import { useGlobalContext } from "../../../context";
 import "./Milestone.css";
 
 function Milestone({ data }) {
-  const lang = useContext(LanguageContext);
+  const { lang } = useGlobalContext();
   const [showList, setShowList] = useState(false);
   const showListBtn = useRef();
   const toggleShowListBtn = () => {

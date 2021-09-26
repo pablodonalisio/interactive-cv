@@ -1,6 +1,6 @@
-import React, { useContext } from "react";
+import React from "react";
 import "./Aptitudes.css";
-import { LanguageContext } from "../../../../LanguageContext";
+import { useGlobalContext } from "../../../../context";
 
 const options = {
   ES: [
@@ -21,7 +21,7 @@ const options = {
   ],
 };
 function Aptitudes() {
-  const lang = useContext(LanguageContext);
+  const { lang } = useGlobalContext();
   return (
     <>
       <section className="aptitudes box">

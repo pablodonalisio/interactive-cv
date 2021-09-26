@@ -1,9 +1,9 @@
-import React, { useContext } from "react";
+import React from "react";
 import "./Contact.css";
-import { LanguageContext } from "../../../../LanguageContext";
+import { useGlobalContext } from "../../../../context";
 
 function Contact() {
-  const lang = useContext(LanguageContext);
+  const { lang } = useGlobalContext();
   return (
     <>
       <section className="contact box">

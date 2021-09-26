@@ -1,5 +1,5 @@
-import React, { useContext } from "react";
-import { LanguageContext } from "../../../LanguageContext";
+import React from "react";
+import { useGlobalContext } from "../../../context";
 import "./Header.css";
 import photo from "./fotocurriculum.jpg";
 
@@ -11,7 +11,7 @@ const options = {
 };
 
 function Header() {
-  const lang = useContext(LanguageContext);
+  const { lang } = useGlobalContext();
   const ocupation = options[lang];
 
   return (

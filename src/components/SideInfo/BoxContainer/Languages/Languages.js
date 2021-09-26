@@ -1,7 +1,7 @@
-import React, { useContext } from "react";
+import React from "react";
 import "./Languages.css";
 import Rating from "./Rating";
-import { LanguageContext } from "../../../../LanguageContext";
+import { useGlobalContext } from "../../../../context";
 
 const options = {
   ES: {
@@ -18,7 +18,7 @@ const options = {
   },
 };
 function Languages() {
-  const lang = useContext(LanguageContext);
+  const { lang } = useGlobalContext();
   const opt = options[lang];
   return (
     <>

@@ -1,11 +1,11 @@
-import React, { useContext } from "react";
+import React from "react";
 import "./Main.css";
 import MilestoneBox from "./Milestone/MilestoneBox";
 import Skills from "./Skills/Skills";
-import { LanguageContext } from "../../LanguageContext";
+import { useGlobalContext } from "../../context";
 
 function Main() {
-  const lang = useContext(LanguageContext);
+  const { lang } = useGlobalContext();
   return (
     <>
       <section className="main column">

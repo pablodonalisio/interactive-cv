@@ -1,44 +1,38 @@
 import React from "react";
 import "./SettingsPanel.css";
 import { useGlobalContext } from "../../context";
+import SettingsBox from "./SettingsBox";
 
 const data = {
   ES: {
-    langTitle: "Seleccione un idioma",
+    areaTitle: "Seleccione un area",
+    lang: {
+      title: "seleccione un idioma",
+      options: [
+        { value: "ES", active: true },
+        { value: "EN", active: false },
+      ],
+    },
   },
   EN: {
-    langTitle: "Select language",
+    areaTitle: "Select area",
+    lang: {
+      title: "select language",
+      options: [
+        { value: "ES", active: true },
+        { value: "EN", active: false },
+      ],
+    },
   },
 };
 function SettingsPanel() {
   const { lang, setLang } = useGlobalContext();
-  const changeActiveButton = (e) => {
-    e.target.parentElement
-      .getElementsByClassName("active")[0]
-      .classList.toggle("active");
-    e.target.classList.add("active");
-  };
-
-  const changeLanguage = (e) => {
-    changeActiveButton(e);
-    setLang(e.target.value);
-  };
   return (
     <div className="settings-panel">
+      <SettingsBox data={data[lang].lang} setValue={setLang} />
+      <hr />
       <div className="settings-box">
-        <h2>{data[lang].langTitle}</h2>
-        <div className="btn-container">
-          <button
-            className=" settings-btn active"
-            onClick={changeLanguage}
-            value="ES"
-          >
-            ES
-          </button>
-          <button className="settings-btn" onClick={changeLanguage} value="EN">
-            EN
-          </button>
-        </div>
+        <h2>{data[lang].areaTitle}</h2>
       </div>
     </div>
   );

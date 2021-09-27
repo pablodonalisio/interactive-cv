@@ -4,14 +4,7 @@ const AppContext = React.createContext();
 
 const AppProvider = ({ children }) => {
   const [lang, setLang] = useState("ES");
-  const [area, setArea] = useState(["programming", "mechanics", "school"]);
   const [fields, setFields] = useState(["experience", "education", "skills"]);
-  const [skills, setSkills] = useState([
-    "programming language",
-    "framework",
-    "database",
-    "vcs",
-  ]);
   const [hiddenElements, setHiddenElements] = useState([]);
 
   useEffect(() => {
@@ -35,12 +28,8 @@ const AppProvider = ({ children }) => {
       value={{
         lang,
         setLang,
-        area,
-        setArea,
         fields,
         setFields,
-        skills,
-        setSkills,
         hiddenElements,
         setHiddenElements,
       }}

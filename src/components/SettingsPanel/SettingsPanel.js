@@ -88,23 +88,15 @@ const data = {
   },
 };
 function SettingsPanel() {
-  const { lang, setLang, setArea, setFields, setSkills } = useGlobalContext();
+  const { lang, setLang, setFields } = useGlobalContext();
   return (
     <div className="settings-container">
       <div className="settings-panel">
         <SettingsBox data={data[lang].lang} setValue={setLang} type="select" />
         <hr />
-        <SettingsBox data={data[lang].area} setValue={setArea} type="combo" />
-        <hr />
         <SettingsBox
           data={data[lang].fields}
           setValue={setFields}
-          type="combo"
-        />
-        <hr />
-        <SettingsBox
-          data={data[lang].skills}
-          setValue={setSkills}
           type="combo"
         />
       </div>

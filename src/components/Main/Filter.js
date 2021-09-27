@@ -6,18 +6,22 @@ function Filter({ categories, setValue }) {
   const [showFilter, setShowFilter] = useState(false);
   const { lang } = useGlobalContext();
   const handleFilterClick = () => {
-    setShowFilter(true);
-    setTimeout(() => {
-      document.addEventListener(
-        "click",
-        () => {
-          setShowFilter(false);
-        },
-        {
-          once: true,
-        }
-      );
-    }, 10);
+    if (showFilter) {
+      setShowFilter(false);
+    } else {
+      setShowFilter(true);
+      setTimeout(() => {
+        document.addEventListener(
+          "click",
+          () => {
+            setShowFilter(false);
+          },
+          {
+            once: true,
+          }
+        );
+      }, 20);
+    }
   };
   const changeValue = (e) => {
     setValue(e.target.value);

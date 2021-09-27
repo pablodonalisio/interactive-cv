@@ -9,6 +9,8 @@
   margin-top: 5px;
   padding: 5px;
   border-radius: 5px;
+  max-height: 150px;
+  overflow: auto;
 }
 .filter button {
   background-color: black;

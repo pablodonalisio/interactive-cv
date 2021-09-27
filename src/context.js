@@ -4,9 +4,12 @@ const AppContext = React.createContext();
 
 const AppProvider = ({ children }) => {
   const [lang, setLang] = useState("ES");
-  const [area, setArea] = useState(["Programming", "Mechanics"]);
+  const [area, setArea] = useState(["programming", "mechanics"]);
+  const [fields, setFields] = useState(["experience", "education", "skills"]);
   return (
-    <AppContext.Provider value={{ lang, setLang, area, setArea }}>
+    <AppContext.Provider
+      value={{ lang, setLang, area, setArea, fields, setFields }}
+    >
       {children}
     </AppContext.Provider>
   );

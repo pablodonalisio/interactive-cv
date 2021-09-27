@@ -19,6 +19,15 @@ const data = {
         { value: "mechanics", text: "Mecánica", active: true },
       ],
     },
+    fields: {
+      title: "seleccione los campos",
+      options: [
+        { value: "about", text: "Sobre Mi", active: false },
+        { value: "experience", text: "Experiencia", active: true },
+        { value: "education", text: "Educación", active: true },
+        { value: "skills", text: "Herramientas", active: true },
+      ],
+    },
   },
   EN: {
     lang: {
@@ -35,15 +44,26 @@ const data = {
         { value: "mechanics", text: "Mechanics", active: true },
       ],
     },
+    fields: {
+      title: "select fields",
+      options: [
+        { value: "about", text: "About Me", active: false },
+        { value: "experience", text: "Experience", active: true },
+        { value: "education", text: "Education", active: true },
+        { value: "skills", text: "Skills", active: true },
+      ],
+    },
   },
 };
 function SettingsPanel() {
-  const { lang, setLang, setArea } = useGlobalContext();
+  const { lang, setLang, setArea, setFields } = useGlobalContext();
   return (
     <div className="settings-panel">
       <SettingsBox data={data[lang].lang} setValue={setLang} type="select" />
       <hr />
       <SettingsBox data={data[lang].area} setValue={setArea} type="combo" />
+      <hr />
+      <SettingsBox data={data[lang].fields} setValue={setFields} type="combo" />
     </div>
   );
 }

@@ -8,6 +8,7 @@
   height: 29.6cm;
   width: 21cm;
   background-color: #eceeef;
+  flex: 0 0 auto;
 }
 
 .column {

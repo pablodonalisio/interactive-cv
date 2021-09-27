@@ -1,7 +1,11 @@
-.settings-panel {
+.settings-container {
   background-color: #201c1c;
-  color: goldenrod;
   flex: 1 1 auto;
+}
+.settings-panel {
+  position: sticky;
+  top: 10px;
+  margin: 0 10px;
 }
 
 .settings-box {

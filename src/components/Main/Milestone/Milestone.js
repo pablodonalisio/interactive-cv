@@ -4,25 +4,28 @@ import { useGlobalContext } from "../../../context";
 import "./Milestone.css";
 
 function Milestone({ data }) {
-  const { lang } = useGlobalContext();
+  const { lang, setHiddenElements } = useGlobalContext();
   const [showList, setShowList] = useState(false);
   const showListBtn = useRef();
-  const toggleShowListBtn = (e) => {
-    const btn = showListBtn.current;
-    if (btn) {
-      if (e.type === "mouseout") btn.classList.add("hidden");
-      if (e.type === "mouseover") btn.classList.remove("hidden");
-    }
-  };
   useEffect(() => {
-    const curriculum = document.getElementById("curriculum");
-    curriculum.addEventListener("mouseout", toggleShowListBtn);
-    curriculum.addEventListener("mouseover", toggleShowListBtn);
-    return () => {
-      curriculum.removeEventListener("mouseout", toggleShowListBtn);
-      curriculum.removeEventListener("mouseover", toggleShowListBtn);
-    };
-  }, []);
+    setHiddenElements((prev) => [...prev, showListBtn.current]);
+  }, [setHiddenElements]);
+  // const toggleShowListBtn = (e) => {
+  //   const btn = showListBtn.current;
+  //   if (btn) {
+  //     if (e.type === "mouseout") btn.classList.add("hidden");
+  //     if (e.type === "mouseover") btn.classList.remove("hidden");
+  //   }
+  // };
+  // useEffect(() => {
+  //   const curriculum = document.getElementById("curriculum");
+  //   curriculum.addEventListener("mouseout", toggleShowListBtn);
+  //   curriculum.addEventListener("mouseover", toggleShowListBtn);
+  //   return () => {
+  //     curriculum.removeEventListener("mouseout", toggleShowListBtn);
+  //     curriculum.removeEventListener("mouseover", toggleShowListBtn);
+  //   };
+  // }, []);
   return (
     <>
       <li className="milestone">

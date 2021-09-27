@@ -1,4 +1,4 @@
-import React, { useState, useContext } from "react";
+import React, { useState, useContext, useEffect } from "react";
 
 const AppContext = React.createContext();
 
@@ -12,6 +12,24 @@ const AppProvider = ({ children }) => {
     "database",
     "vcs",
   ]);
+  const [hiddenElements, setHiddenElements] = useState([]);
+
+  useEffect(() => {
+    const toggleElements = (e) => {
+      hiddenElements.forEach((element) => {
+        if (!element) return;
+        if (e.type === "mouseout") element.classList.add("hidden");
+        if (e.type === "mouseover") element.classList.remove("hidden");
+      });
+    };
+    const curriculum = document.getElementById("curriculum");
+    curriculum.addEventListener("mouseout", toggleElements);
+    curriculum.addEventListener("mouseover", toggleElements);
+    return () => {
+      curriculum.removeEventListener("mouseout", toggleElements);
+      curriculum.removeEventListener("mouseover", toggleElements);
+    };
+  }, [hiddenElements]);
   return (
     <AppContext.Provider
       value={{
@@ -23,6 +41,8 @@ const AppProvider = ({ children }) => {
         setFields,
         skills,
         setSkills,
+        hiddenElements,
+        setHiddenElements,
       }}
     >
       {children}

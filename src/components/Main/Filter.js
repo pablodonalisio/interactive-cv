@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import "./Filter.css";
 import { useGlobalContext } from "../../context";
 
 function Filter({ categories, setValue }) {
   const [showFilter, setShowFilter] = useState(false);
-  const { lang } = useGlobalContext();
+  const { lang, setHiddenElements } = useGlobalContext();
+  const filterElement = useRef("");
   const handleFilterClick = () => {
     if (showFilter) {
       setShowFilter(false);
@@ -26,8 +27,11 @@ function Filter({ categories, setValue }) {
   const changeValue = (e) => {
     setValue(e.target.value);
   };
+  useEffect(() => {
+    setHiddenElements((prev) => [...prev, filterElement.current]);
+  }, [setHiddenElements]);
   return (
-    <div className="filter">
+    <div className="filter" ref={filterElement}>
       <i className="fas fa-filter" onClick={handleFilterClick}></i>
       {showFilter && (
         <ul>

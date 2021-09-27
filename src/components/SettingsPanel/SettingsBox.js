@@ -17,7 +17,6 @@ function SettingsBox({ data, setValue, type }) {
   };
   const toggleValue = (value) => {
     setValue((prev) => {
-      console.log(prev);
       if (prev.includes(value)) {
         return prev.filter((option) => option !== value);
       } else {

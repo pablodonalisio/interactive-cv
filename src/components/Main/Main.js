@@ -7,23 +7,30 @@ import { useGlobalContext } from "../../context";
 
 function Main() {
   const { lang, fields } = useGlobalContext();
-  const elements = [
-    [<About />, "about"],
-    [
-      <MilestoneBox category={lang === "ES" ? "Experiencia" : "Experience"} />,
-      "experience",
-    ],
-    [
-      <MilestoneBox category={lang === "ES" ? "Educación" : "Education"} />,
-      "education",
-    ],
-    [<Skills />, "skills"],
-  ];
+  const orderedFields = ["about", "experience", "education", "skills"].filter(
+    (field) => fields.includes(field)
+  );
   return (
     <>
       <section className="main column">
-        {elements.map((element, idx) => {
-          return fields.includes(element[1]) && element[0];
+        {orderedFields.map((field, idx) => {
+          if (field === "about") return <About key={idx} />;
+          if (field === "experience")
+            return (
+              <MilestoneBox
+                category={lang === "ES" ? "Experiencia" : "Experience"}
+                key={idx}
+              />
+            );
+          if (field === "education")
+            return (
+              <MilestoneBox
+                category={lang === "ES" ? "Educación" : "Education"}
+                key={idx}
+              />
+            );
+          if (field === "skills") return <Skills key={idx} />;
+          return <p>field doesn't exist</p>;
         })}
       </section>
     </>

@@ -6,7 +6,6 @@ import "./MilestoneBox.css";
 
 function MilestoneBox({ category }) {
   const { lang, area } = useGlobalContext();
-  console.log(area);
   const data = Milestones[lang][category].filter((milestone) =>
     area.includes(milestone.area)
   );

@@ -7,6 +7,18 @@ export const Milestones = {
         start: "Ago-2021",
         end: "En curso",
         area: "programming",
+        list: [
+          {
+            title: "NodeJs",
+            structure: [
+              "Express",
+              "MongoDB",
+              "Authentication",
+              "APIs",
+              "Testing",
+            ],
+          },
+        ],
       },
       {
         title: "Aceleración Alkemy",
@@ -85,6 +97,31 @@ export const Milestones = {
         end: "2012",
         description: "Cursado hasta 4to año de la carrera.",
         area: "mechanics",
+        list: [
+          {
+            title: "Materias básicas aprobadas",
+            structure: [
+              "Análisis Matemático I y II",
+              "Álgebra y Geometría Analítica",
+              "Cálculo Avanzado",
+              "Física I y II",
+              "Probabilidad y Estadística",
+              "Química General y Aplicada",
+            ],
+          },
+          {
+            title: "Materias de la especialidad aprobadas",
+            structure: [
+              "Ingeniería Mecánica I, II y III",
+              "Sistemas de Representación",
+              "Estabilidad I",
+              "Materiales Metálicos",
+              "Ing Ambiental y Seguridad Industrial",
+              "Térmodinámica",
+              "Diseño Mecánico",
+            ],
+          },
+        ],
       },
       {
         title:
@@ -148,6 +185,18 @@ export const Milestones = {
         start: "Aug-2021",
         end: "Present",
         area: "programming",
+        list: [
+          {
+            title: "NodeJs",
+            structure: [
+              "Express",
+              "MongoDB",
+              "Authentication",
+              "APIs",
+              "Testing",
+            ],
+          },
+        ],
       },
       {
         title: "Alkemy Acceleration",
@@ -226,6 +275,31 @@ export const Milestones = {
         end: "2014",
         description: "Cursado hasta 4to año de la carrera.",
         area: "mechanics",
+        list: [
+          {
+            title: "Basics subjects approved",
+            structure: [
+              "Mathematical Analysis I y II",
+              "Algebra and Analytical Geometry",
+              "Advanced Calculus",
+              "Physics I y II",
+              "Probability and statistics",
+              "General and Applied Chemistry",
+            ],
+          },
+          {
+            title: "Speciality subjects approved",
+            structure: [
+              "Mechanical Engeneering I, II y III",
+              "Representation Systems",
+              "Stability I",
+              "Metalic Materials",
+              "Environmental Eng and Industrial Safety",
+              "Thermodinamycs",
+              "Mechanical Design",
+            ],
+          },
+        ],
       },
       {
         title:
@@ -244,7 +318,7 @@ export const Milestones = {
       },
       {
         title: "IMAPRO SRL / MetalCast - Plant manager",
-        start: "2015",
+        start: "2007",
         end: "2017",
         area: "mechanics",
         list: [

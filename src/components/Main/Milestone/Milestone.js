@@ -7,9 +7,12 @@ function Milestone({ data }) {
   const { lang } = useGlobalContext();
   const [showList, setShowList] = useState(false);
   const showListBtn = useRef();
-  const toggleShowListBtn = () => {
+  const toggleShowListBtn = (e) => {
     const btn = showListBtn.current;
-    if (btn) btn.classList.toggle("hidden");
+    if (btn) {
+      if (e.type === "mouseout") btn.classList.add("hidden");
+      if (e.type === "mouseover") btn.classList.remove("hidden");
+    }
   };
   useEffect(() => {
     const curriculum = document.getElementById("curriculum");

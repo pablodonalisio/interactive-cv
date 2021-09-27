@@ -17,6 +17,7 @@ const data = {
       options: [
         { value: "programming", text: "Programación", active: true },
         { value: "mechanics", text: "Mecánica", active: true },
+        { value: "school", text: "Colegio", active: true },
       ],
     },
     fields: {
@@ -57,6 +58,7 @@ const data = {
       options: [
         { value: "programming", text: "Programming", active: true },
         { value: "mechanics", text: "Mechanics", active: true },
+        { value: "school", text: "School", active: true },
       ],
     },
     fields: {

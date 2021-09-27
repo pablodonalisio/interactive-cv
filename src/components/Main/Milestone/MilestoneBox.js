@@ -5,9 +5,11 @@ import { useGlobalContext } from "../../../context";
 import "./MilestoneBox.css";
 
 function MilestoneBox({ category }) {
-  const { lang } = useGlobalContext();
-
-  const data = Milestones[lang][category];
+  const { lang, area } = useGlobalContext();
+  console.log(area);
+  const data = Milestones[lang][category].filter((milestone) =>
+    area.includes(milestone.area)
+  );
   return (
     <>
       {data && (

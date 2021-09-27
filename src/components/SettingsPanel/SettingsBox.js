@@ -15,11 +15,25 @@ function SettingsBox({ data, setValue, type }) {
       activeBtns.map((state, index) => (index === idx ? !state : state))
     );
   };
+  const toggleValue = (value) => {
+    setValue((prev) => {
+      console.log(prev);
+      if (prev.includes(value)) {
+        return prev.filter((option) => option !== value);
+      } else {
+        return [...prev, value];
+      }
+    });
+  };
 
   const changeValue = (value, idx) => {
-    if (type === "select") changeActiveButton(idx);
-    if (type === "combo") toggleButton(idx);
-    setValue(value);
+    if (type === "select") {
+      changeActiveButton(idx);
+      setValue(value);
+    } else if (type === "combo") {
+      toggleButton(idx);
+      toggleValue(value);
+    }
   };
   return (
     <div className="settings-box">

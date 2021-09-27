@@ -4,7 +4,7 @@ const AppContext = React.createContext();
 
 const AppProvider = ({ children }) => {
   const [lang, setLang] = useState("ES");
-  const [area, setArea] = useState(["programming", "mechanics"]);
+  const [area, setArea] = useState(["programming", "mechanics", "school"]);
   const [fields, setFields] = useState(["experience", "education", "skills"]);
   const [skills, setSkills] = useState([
     "programming language",

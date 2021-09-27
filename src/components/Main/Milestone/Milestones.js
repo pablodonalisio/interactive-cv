@@ -6,6 +6,7 @@ export const Milestones = {
         url: "https://www.theodinproject.com/paths/full-stack-javascript/courses/nodejs",
         start: "Ago-2021",
         end: "En curso",
+        area: "programming",
       },
       {
         title: "Aceleración Alkemy",
@@ -23,6 +24,7 @@ export const Milestones = {
             ],
           },
         ],
+        area: "programming",
       },
       {
         title: "The Odin Project - Full Stack Ruby on Rails",
@@ -75,18 +77,21 @@ export const Milestones = {
             ],
           },
         ],
+        area: "programming",
       },
       {
         title: "Ingeniería Mecánica - Universidad Tecnológica Nacional",
         start: "2007",
         end: "2012",
         description: "Cursado hasta 4to año de la carrera.",
+        area: "mechanics",
       },
       {
         title:
           "Bachiller en Gestión de las Organizaciones - Colegio Santo Tomás",
         start: "1994",
         end: "2006",
+        area: "school",
       },
     ],
     Experiencia: [
@@ -94,11 +99,13 @@ export const Milestones = {
         title: "Independiente - Programador CNC / Diseñador CAD/CAM",
         start: "2017",
         end: "2021",
+        area: "mechanics",
       },
       {
         title: "IMAPRO SRL / MetalCast - Encargado de planta",
         start: "2007",
         end: "2017",
+        area: "mechanics",
         list: [
           {
             title: "Programacion CNC",
@@ -140,12 +147,14 @@ export const Milestones = {
         url: "https://www.theodinproject.com/paths/full-stack-javascript/courses/nodejs",
         start: "Aug-2021",
         end: "Present",
+        area: "programming",
       },
       {
         title: "Alkemy Acceleration",
         url: "https://alkemy.org/",
         start: "Apr-2021",
         end: "Jul-2021",
+        area: "programming",
         list: [
           {
             title: "Activities",
@@ -163,6 +172,7 @@ export const Milestones = {
         url: "https://www.theodinproject.com/paths/full-stack-ruby-on-rails?",
         start: "2020",
         end: "2021",
+        area: "programming",
         list: [
           {
             title: "Ruby",
@@ -215,12 +225,14 @@ export const Milestones = {
         start: "2007",
         end: "2014",
         description: "Cursado hasta 4to año de la carrera.",
+        area: "mechanics",
       },
       {
         title:
           "Bachiller en Gestión de las Organizaciones - Colegio Santo Tomás",
         start: "1994",
         end: "2006",
+        area: "school",
       },
     ],
     Experience: [
@@ -228,11 +240,13 @@ export const Milestones = {
         title: "Freelance - CNC Programmer / CAD/CAM Designer",
         start: "2017",
         end: "2021",
+        area: "mechanics",
       },
       {
         title: "IMAPRO SRL / MetalCast - Plant manager",
         start: "2015",
         end: "2017",
+        area: "mechanics",
         list: [
           {
             title: "CNC Programming",

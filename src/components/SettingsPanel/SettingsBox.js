@@ -19,7 +19,6 @@ function SettingsBox({ data, setValue, type }) {
   const changeValue = (value, idx) => {
     if (type === "select") changeActiveButton(idx);
     if (type === "combo") toggleButton(idx);
-    console.log(activeBtns);
     setValue(value);
   };
   return (
@@ -27,7 +26,6 @@ function SettingsBox({ data, setValue, type }) {
       <h2>{title}</h2>
       <div className="btn-container">
         {options.map((option, idx) => {
-          console.log("hello");
           const { value, text } = option;
           return (
             <button

@@ -6,9 +6,24 @@ const AppProvider = ({ children }) => {
   const [lang, setLang] = useState("ES");
   const [area, setArea] = useState(["programming", "mechanics"]);
   const [fields, setFields] = useState(["experience", "education", "skills"]);
+  const [skills, setSkills] = useState([
+    "programming language",
+    "framework",
+    "database",
+    "vcs",
+  ]);
   return (
     <AppContext.Provider
-      value={{ lang, setLang, area, setArea, fields, setFields }}
+      value={{
+        lang,
+        setLang,
+        area,
+        setArea,
+        fields,
+        setFields,
+        skills,
+        setSkills,
+      }}
     >
       {children}
     </AppContext.Provider>

@@ -28,6 +28,21 @@ const data = {
         { value: "skills", text: "Herramientas", active: true },
       ],
     },
+    skills: {
+      title: "seleccione herramienta",
+      options: [
+        {
+          value: "programming language",
+          text: "Lenguajes",
+          active: true,
+        },
+        { value: "framework", text: "Framework", active: true },
+        { value: "database", text: "Base de datos", active: true },
+        { value: "vcs", text: "Control de version", active: true },
+        { value: "os", text: "SO", active: false },
+        { value: "cloud", text: "Nube", active: false },
+      ],
+    },
   },
   EN: {
     lang: {
@@ -53,10 +68,25 @@ const data = {
         { value: "skills", text: "Skills", active: true },
       ],
     },
+    skills: {
+      title: "select skills",
+      options: [
+        {
+          value: "programming language",
+          text: "Programming language",
+          active: true,
+        },
+        { value: "framework", text: "Framework", active: true },
+        { value: "database", text: "Database", active: true },
+        { value: "vcs", text: "Version control ", active: true },
+        { value: "os", text: "OS", active: false },
+        { value: "cloud", text: "Cloud", active: false },
+      ],
+    },
   },
 };
 function SettingsPanel() {
-  const { lang, setLang, setArea, setFields } = useGlobalContext();
+  const { lang, setLang, setArea, setFields, setSkills } = useGlobalContext();
   return (
     <div className="settings-panel">
       <SettingsBox data={data[lang].lang} setValue={setLang} type="select" />
@@ -64,6 +94,8 @@ function SettingsPanel() {
       <SettingsBox data={data[lang].area} setValue={setArea} type="combo" />
       <hr />
       <SettingsBox data={data[lang].fields} setValue={setFields} type="combo" />
+      <hr />
+      <SettingsBox data={data[lang].skills} setValue={setSkills} type="combo" />
     </div>
   );
 }

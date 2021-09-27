@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./Filter.css";
 import { useGlobalContext } from "../../context";
 
 function Filter({ categories, setValue }) {
@@ -11,7 +12,6 @@ function Filter({ categories, setValue }) {
         "click",
         () => {
           setShowFilter(false);
-          console.log("hello");
         },
         {
           once: true,
@@ -19,7 +19,7 @@ function Filter({ categories, setValue }) {
       );
     }, 10);
   };
-  const changeArea = (e) => {
+  const changeValue = (e) => {
     setValue(e.target.value);
   };
   return (
@@ -30,14 +30,14 @@ function Filter({ categories, setValue }) {
           {categories.map((cat, idx) => {
             return (
               <li key={idx}>
-                <button value={cat.name} onClick={changeArea}>
+                <button value={cat.value} onClick={changeValue}>
                   {cat[lang]}
                 </button>
               </li>
             );
           })}
           <li>
-            <button value="" onClick={changeArea}>
+            <button value="" onClick={changeValue}>
               {lang === "ES" ? "Todo" : "All"}
             </button>
           </li>

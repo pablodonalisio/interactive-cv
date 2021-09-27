@@ -1,23 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Skills.css";
 import { data } from "./Data";
 import { useGlobalContext } from "../../../context";
+import Filter from "../Filter";
+
+const categories = [
+  { value: 1, ES: "Lenguajes de Programacion", EN: "Programming Languages" },
+  { value: 2, ES: "Frameworks", EN: "Frameworks" },
+  { value: 3, ES: "Base de Datos", EN: "Databases" },
+  { value: 4, ES: "Control de Versiones", EN: "Version Control" },
+  { value: 5, ES: "Sistemas Operativos", EN: "Operative Systems" },
+  { value: 6, ES: "Nube", EN: "Cloud" },
+];
 
 function Skills() {
-  const { lang, skills } = useGlobalContext();
-
-  const filteredSkills = data.skills
+  const { lang } = useGlobalContext();
+  const [typeId, setTypeId] = useState("");
+  const skills = data.skills
     .filter((skill) => {
-      const type = data.types.find((type) => type.id === skill.type_id).name;
-      return skills.includes(type);
+      return typeId ? typeId === skill.type_id.toString() : true;
     })
     .sort((a, b) => (a.type_id < b.type_id ? -1 : 1));
   return (
     <>
       <section className="skills box">
         <h2>{lang === "ES" ? "Herramientas" : "Skills"}</h2>
-        <div>
-          {filteredSkills.map((skill, idx) => {
+        <div className="figures-container">
+          {skills.map((skill, idx) => {
             return (
               <figure key={idx}>
                 <img
@@ -29,6 +38,7 @@ function Skills() {
             );
           })}
         </div>
+        <Filter categories={categories} setValue={setTypeId} />
       </section>
     </>
   );

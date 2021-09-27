@@ -3,7 +3,7 @@
   flex: 1 1 auto;
 }
 
-.skills div {
+.skills .figures-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

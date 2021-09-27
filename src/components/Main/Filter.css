@@ -1,0 +1,28 @@
+.filter {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  text-align: right;
+}
+.filter ul {
+  background-color: black;
+  margin-top: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.filter button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.8rem;
+  height: 100%;
+  width: 100%;
+  font-weight: bold;
+}
+.filter button:hover {
+  background-color: rgb(34, 32, 32);
+}

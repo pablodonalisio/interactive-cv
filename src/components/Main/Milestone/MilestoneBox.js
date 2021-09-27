@@ -9,8 +9,8 @@ function MilestoneBox({ category }) {
   const { lang } = useGlobalContext();
   const [area, setArea] = useState(null);
   const categories = [
-    { name: "programming", ES: "Programación", EN: "Programming" },
-    { name: "mechanics", ES: "Mecanica", EN: "Mechanics" },
+    { value: "programming", ES: "Programación", EN: "Programming" },
+    { value: "mechanics", ES: "Mecanica", EN: "Mechanics" },
   ];
   const data = Milestones[lang][category].filter((milestone) =>
     area ? area === milestone.area : true

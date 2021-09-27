@@ -1,6 +1,6 @@
-import React, { useContext } from "react";
+import React from "react";
 import "./About.css";
-import { LanguageContext } from "../../../LanguageContext";
+import { useGlobalContext } from "../../../context";
 
 const data = {
   ES: [
@@ -30,7 +30,7 @@ const data = {
   ],
 };
 function About() {
-  const lang = useContext(LanguageContext);
+  const { lang } = useGlobalContext();
 
   return (
     <>

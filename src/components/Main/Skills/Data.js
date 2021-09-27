@@ -69,33 +69,27 @@ export const data = {
   types: [
     {
       id: 1,
-      ES: "Lenguajes de programación",
-      EN: "Programming language",
+      name: "programming language",
     },
     {
       id: 2,
-      ES: "Framework",
-      EN: "Framework",
+      name: "framework",
     },
     {
       id: 3,
-      ES: "Base de datos",
-      EN: "Database",
+      name: "database",
     },
     {
       id: 4,
-      ES: "Control de versiones",
-      EN: "Version control system",
+      name: "vcs",
     },
     {
       id: 5,
-      ES: "Sistemas Operativos",
-      EN: "Operative systems",
+      name: "os",
     },
     {
       id: 6,
-      ES: "Nube",
-      EN: "Cloud",
+      name: "cloud",
     },
   ],
 };

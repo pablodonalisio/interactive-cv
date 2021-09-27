@@ -4,15 +4,20 @@ import { data } from "./Data";
 import { useGlobalContext } from "../../../context";
 
 function Skills() {
-  const { lang } = useGlobalContext();
+  const { lang, skills } = useGlobalContext();
 
-  const skills = data.skills.sort((a, b) => (a.type_id < b.type_id ? -1 : 1));
+  const filteredSkills = data.skills
+    .filter((skill) => {
+      const type = data.types.find((type) => type.id === skill.type_id).name;
+      return skills.includes(type);
+    })
+    .sort((a, b) => (a.type_id < b.type_id ? -1 : 1));
   return (
     <>
       <section className="skills box">
         <h2>{lang === "ES" ? "Herramientas" : "Skills"}</h2>
         <div>
-          {skills.map((skill, idx) => {
+          {filteredSkills.map((skill, idx) => {
             return (
               <figure key={idx}>
                 <img

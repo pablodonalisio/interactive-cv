@@ -4,7 +4,12 @@ const AppContext = React.createContext();
 
 const AppProvider = ({ children }) => {
   const [lang, setLang] = useState("ES");
-  const [fields, setFields] = useState(["experience", "education", "skills"]);
+  const [fields, setFields] = useState([
+    "about",
+    "experience",
+    "education",
+    "skills",
+  ]);
   const [hiddenElements, setHiddenElements] = useState([]);
 
   useEffect(() => {

@@ -1,7 +1,7 @@
 import "./App.css";
 import SideInfo from "./components/SideInfo/SideInfo";
 import Main from "./components/Main/Main";
-import SettingsPanel from "./components/SettingsPanel/SettingsPanel";
+// import SettingsPanel from "./components/SettingsPanel/SettingsPanel";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <SideInfo />
         <Main />
       </div>
-      <SettingsPanel />
+      {/* <SettingsPanel /> */}
     </div>
   );
 }

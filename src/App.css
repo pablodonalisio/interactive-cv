@@ -1,6 +1,7 @@
 .App {
-  display: flex;
-  width: 100%;
+  padding: 100px;
+  background-image: linear-gradient(rgb(14 9 9), #3894d1);
+  height: fit-content;
 }
 
 #curriculum {
@@ -8,7 +9,7 @@
   min-height: 29.6cm;
   width: 21cm;
   background-color: #eceeef;
-  flex: 0 0 auto;
+  margin: 0 auto;
 }
 
 .column {

@@ -1,8 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./SettingsPanel.css";
 import { useGlobalContext } from "../../context";
-import SettingsBox from "./SettingsBox";
-import { data } from "./Data";
 
 function SettingsPanel() {
   const { lang, setLang, setHiddenElements } = useGlobalContext();
@@ -33,11 +31,17 @@ function SettingsPanel() {
       </button>
       {showSettings && (
         <div className="settings-panel">
-          <SettingsBox
-            data={data[lang].lang}
-            setValue={setLang}
-            type="select"
-          />
+          <div className="settings-box">
+            <h2>{lang === "ES" ? "Idioma" : "Language"}</h2>
+            <select
+              name="lang"
+              id="lang"
+              onChange={(e) => setLang(e.target.value)}
+            >
+              <option value="ES">ES</option>
+              <option value="EN">EN</option>
+            </select>
+          </div>
         </div>
       )}
     </div>

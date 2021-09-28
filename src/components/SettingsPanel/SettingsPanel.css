@@ -8,29 +8,17 @@
 .settings-panel {
   top: 10px;
   margin: 0 10px;
+  min-width: 130px;
 }
 
 .settings-box {
   width: 100%;
   margin: 10px auto 30px;
 }
-.btn-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  flex-direction: column;
-  width: fit-content;
+.settings-box select {
   margin: 0 auto;
+  display: block;
 }
-
-.settings-btn {
-  border: none;
-}
-
-.active {
-  background-color: #76f37b;
-}
-
 .menu-btn {
   background-color: transparent;
   color: white;

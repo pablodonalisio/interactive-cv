@@ -1,9 +1,11 @@
 .settings-container {
   background-color: #201c1c;
-  flex: 1 1 auto;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
 }
 .settings-panel {
-  position: sticky;
   top: 10px;
   margin: 0 10px;
 }
@@ -16,6 +18,9 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  flex-direction: column;
+  width: fit-content;
+  margin: 0 auto;
 }
 
 .settings-btn {
@@ -24,4 +29,17 @@
 
 .active {
   background-color: #76f37b;
+}
+
+.menu-btn {
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 40px;
+}
+
+.menu-btn i {
+  font-size: 1.5rem;
 }

@@ -3,6 +3,7 @@
   top: 30px;
   right: 20px;
   text-align: right;
+  z-index: 2;
 }
 .filter ul {
   background-color: black;

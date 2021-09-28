@@ -83,6 +83,7 @@ button {
   }
   #curriculum {
     flex-direction: column;
+    width: 100vw;
   }
   .column {
     width: 100vw;

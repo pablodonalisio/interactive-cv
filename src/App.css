@@ -76,3 +76,19 @@ a:hover {
 button {
   height: 20px;
 }
+
+@media only screen and (max-width: 21cm) {
+  .App {
+    padding: 0;
+  }
+  #curriculum {
+    flex-direction: column;
+  }
+  .column {
+    width: 100vw;
+  }
+
+  .hidden {
+    display: inline !important;
+  }
+}

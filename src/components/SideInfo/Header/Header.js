@@ -1,7 +1,7 @@
 import React from "react";
 import { useGlobalContext } from "../../../context";
 import "./Header.css";
-import photo from "./fotocurriculum.jpg";
+import photo from "./pp.jpeg";
 
 const options = {
   Programming: {

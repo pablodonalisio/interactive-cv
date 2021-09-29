@@ -19,12 +19,12 @@
   margin-top: 10px;
 }
 
-@media only screen and (min-width: 12cm) {
+@media (min-width: 12cm) {
   .milestone-list {
     max-height: 300px;
   }
 }
-@media only screen and (min-width: 550px) {
+@media (min-width: 550px) {
   .milestone-list {
     max-height: 200px;
   }

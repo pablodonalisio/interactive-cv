@@ -1,7 +1,6 @@
 import React from "react";
 import { useGlobalContext } from "../../../context";
 import "./Header.css";
-import photo from "./pp.jpeg";
 
 const options = {
   Programming: {
@@ -12,14 +11,13 @@ const options = {
 
 function Header() {
   const { lang } = useGlobalContext();
-  const ocupation = options[lang];
+  const ocupation = options['Programming'][lang];
 
   return (
     <>
       <section className="header box">
         <h1>Pablo Donalisio</h1>
         {ocupation && <p id="profesion">{ocupation}</p>}
-        <img id="photo" src={photo} alt="Foto de Pablo Donalisio" />
       </section>
     </>
   );

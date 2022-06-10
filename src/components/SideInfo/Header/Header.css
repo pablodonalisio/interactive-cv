@@ -1,7 +1,8 @@
 .header {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
+  background-color: #e4e4e4;
 }
 
 #photo {

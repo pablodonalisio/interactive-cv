@@ -9,24 +9,19 @@ const data = {
       "Metalmecánica. Allí mis principales roles fueron como Programador CNC, " +
       "Diseñador CAD/CAM y Gestor de procesos.",
     "Debido al gran auge e increíble potencial que observe en la programación " +
-      "y siendo el desarrollo web un buen terreno para un desarrollador novel, " +
       "decidí comenzar mis estudios como " +
-      "Desarrollador Fullstack dictado por The Odin Project donde pude " +
-      "aprender lenguajes de programación, " +
-      "frameworks, herramientas para el " +
-      "desarrollo y muchas cosas más",
+      "Desarrollador Fullstack donde aprendi lenguajes de programación, " +
+      "frameworks, herramientas para el desarrollo y muchas cosas más"
   ],
   EN: [
     "I've studied up to 4th year of Mechanical Engineering's Degree at " +
       "Universidad Tecnológica Nacional in Córdoba, Argentina. Also worked " +
       "for many years in that area. My main roles there were " +
       "as CNC Programmer, CAD / CAM Designer and Process Manager.",
-    "By looking at the incredible growth of programming and its extraordinary potential, " +
-      "and since web development it's a good place for a novel programmer, " +
+    "When I saw the incredible growth of programming and its extraordinary potential, " +
       "I began my studies as a Fullstack Developer " +
-      "dictated by The Odin Project. There I've learned programming " +
-      "languages, frameworks, " +
-      " development tools and many other things.",
+      "learning programming languages, frameworks, " +
+      "development tools and many other things.",
   ],
 };
 function About() {

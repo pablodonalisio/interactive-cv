@@ -1,7 +1,14 @@
 .milestone-list {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.milestone-list-item {
+  display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  max-height: 100px;
 }
 
 .milestone-list-item li {

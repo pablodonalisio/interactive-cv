@@ -133,6 +133,40 @@ export const Milestones = {
     ],
     Experiencia: [
       {
+        title: "INCREASE - Desarrollador BackEnd",
+        start: "Nov 2021",
+        end: "Actualidad",
+        area: "programming",
+        list: [
+          {
+            title: "BackEnd",
+            structure: [
+              "Desarrollo de nuevas features",
+              "Ruby on Rails",
+              "PostgreSql",
+              "RSpec",
+            ],
+          },
+          {
+            title: "CI/CD",
+            structure: [
+              "Docker",
+              "Kubernetes",
+              "AWS"
+            ],
+          },
+          {
+            title: "Tools",
+            structure: [
+              "Scrum/Kanban",
+              "Jira",
+              "Git/Github",
+              "Slack"
+            ],
+          },
+        ],
+      },
+      {
         title: "Independiente - Programador CNC / Diseñador CAD/CAM",
         start: "2017",
         end: "2021",
@@ -310,6 +344,40 @@ export const Milestones = {
       },
     ],
     Experience: [
+      {
+        title: "INCREASE - Backend Developer",
+        start: "Nov 2021",
+        end: "Currently",
+        area: "programming",
+        list: [
+          {
+            title: "BackEnd",
+            structure: [
+              "Development of new features",
+              "Ruby on Rails",
+              "PostgreSql",
+              "RSpec",
+            ],
+          },
+          {
+            title: "CI/CD",
+            structure: [
+              "Docker",
+              "Kubernetes",
+              "AWS"
+            ],
+          },
+          {
+            title: "Tools",
+            structure: [
+              "Scrum/Kanban",
+              "Jira",
+              "Git/Github",
+              "Slack"
+            ],
+          },
+        ],
+      },
       {
         title: "Freelance - CNC Programmer / CAD/CAM Designer",
         start: "2017",

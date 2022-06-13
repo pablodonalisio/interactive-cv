@@ -22,7 +22,7 @@ export const data = {
     },
     {
       name: "Ruby",
-      file: "ruby.jpeg",
+      file: "ruby.png",
       type_id: 1,
     },
     {
@@ -32,7 +32,7 @@ export const data = {
     },
     {
       name: "PostgreSQL",
-      file: "postgresql.jpeg",
+      file: "postgresql.png",
       type_id: 3,
     },
     {
@@ -47,22 +47,22 @@ export const data = {
     },
     {
       name: "Linux",
-      file: "linux.jpeg",
+      file: "linux.png",
       type_id: 5,
     },
     {
       name: "NodeJs",
-      file: "nodejs.jpeg",
+      file: "nodejs.png",
       type_id: 2,
     },
     {
       name: "MongoDB",
-      file: "mongodb.jpeg",
+      file: "mongodb.png",
       type_id: 3,
     },
     {
       name: "Heroku",
-      file: "heroku.jpeg",
+      file: "heroku.png",
       type_id: 6,
     },
   ],

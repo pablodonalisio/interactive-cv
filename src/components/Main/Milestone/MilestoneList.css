@@ -4,10 +4,6 @@
   justify-content: space-between;
 }
 
-.milestone-list p {
-  text-decoration: underline;
-}
-
 .milestone-list-item {
   display: flex;
   flex-direction: column;

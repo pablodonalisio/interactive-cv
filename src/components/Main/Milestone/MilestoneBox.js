@@ -7,7 +7,7 @@ import Filter from "../Filter";
 
 function MilestoneBox({ category }) {
   const { lang } = useGlobalContext();
-  const [area, setArea] = useState(null);
+  const [area, setArea] = useState("programming");
   const categories = [
     { value: "programming", ES: "Programación", EN: "Programming" },
     { value: "mechanics", ES: "Mecanica", EN: "Mechanics" },

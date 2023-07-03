@@ -5,7 +5,7 @@ import "./Milestone.css";
 
 function Milestone({ data }) {
   const { lang, setHiddenElements } = useGlobalContext();
-  const [showList, setShowList] = useState(false);
+  const [showList, setShowList] = useState(true);
   const showListBtn = useRef();
   useEffect(() => {
     setHiddenElements((prev) => [...prev, showListBtn.current]);

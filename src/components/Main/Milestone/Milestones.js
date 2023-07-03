@@ -2,6 +2,24 @@ export const Milestones = {
   ES: {
     Educación: [
       {
+        title: "The Fundamentals of Backend",
+        url: "https://www.udemy.com/share/107rGq3@UAyCjZcRsfXDZxTZVbto0WnAstH9dDLXIpN0gpKt3wfaeDMDiPH6-k8cH4xkxHt1qw==/",
+        start: "Jun 2023",
+        end: "En curso",
+        list: [
+          {
+            title: "Backend fundamentals",
+            structure: [
+              "Backend communication design patterns",
+              "Protocols",
+              "Backend execution patterns",
+              "Proxying and Loadbalancing",
+            ],
+          }
+        ],
+        area: "programming",
+      },
+      {
         title: "The Odin Project - Full Stack Ruby on Rails and NodeJS",
         url: "https://www.theodinproject.com/paths/full-stack-ruby-on-rails?",
         start: "2020",
@@ -106,9 +124,38 @@ export const Milestones = {
     ],
     Experiencia: [
       {
+        title: "WISBOO - Desarrollador BackEnd",
+        start: "Sep 2022",
+        end: "Jun 2023",
+        area: "programming",
+        list: [
+          {
+            title: "BackEnd",
+            structure: [
+              "Desarrollo y mejora de productos digitales",
+              "Ruby on Rails",
+              "PostgreSql",
+              "RSpec",
+              "Sidekiq",
+              "Rollbar",
+              "Datadog"
+            ],
+          },
+          {
+            title: "Tools",
+            structure: [
+              "Scrum/Kanban",
+              "Jira",
+              "Git/Github",
+              "Slack"
+            ],
+          },
+        ],
+      },
+      {
         title: "INCREASE - Desarrollador BackEnd",
         start: "Nov 2021",
-        end: "Actualidad",
+        end: "Sep 2022",
         area: "programming",
         list: [
           {
@@ -118,6 +165,8 @@ export const Milestones = {
               "Ruby on Rails",
               "PostgreSql",
               "RSpec",
+              "Sidekiq",
+              "Rollbar"
             ],
           },
           {
@@ -186,6 +235,24 @@ export const Milestones = {
   },
   EN: {
     Education: [
+      {
+        title: "The Fundamentals of Backend",
+        url: "https://www.udemy.com/share/107rGq3@UAyCjZcRsfXDZxTZVbto0WnAstH9dDLXIpN0gpKt3wfaeDMDiPH6-k8cH4xkxHt1qw==/",
+        start: "Jun 2023",
+        end: "En curso",
+        list: [
+          {
+            title: "Backend fundamentals",
+            structure: [
+              "Backend communication design patterns",
+              "Protocols",
+              "Backend execution patterns",
+              "Proxying and Loadbalancing",
+            ],
+          }
+        ],
+        area: "programming",
+      },
       {
         title: "The Odin Project - Full Stack Ruby on Rails",
         url: "https://www.theodinproject.com/paths/full-stack-ruby-on-rails?",
@@ -291,6 +358,35 @@ export const Milestones = {
     ],
     Experience: [
       {
+        title: "WISBOO - Backend Developer",
+        start: "Sep 2022",
+        end: "Jun 2023",
+        area: "programming",
+        list: [
+          {
+            title: "BackEnd",
+            structure: [
+              "Develop and improvement of digital products",
+              "Ruby on Rails",
+              "PostgreSql",
+              "RSpec",
+              "Sidekiq",
+              "Rollbar",
+              "Datadog"
+            ],
+          },
+          {
+            title: "Tools",
+            structure: [
+              "Scrum/Kanban",
+              "Jira",
+              "Git/Github",
+              "Slack"
+            ],
+          },
+        ],
+      },
+      {
         title: "INCREASE - Backend Developer",
         start: "Nov 2021",
         end: "Currently",
@@ -303,6 +399,8 @@ export const Milestones = {
               "Ruby on Rails",
               "PostgreSql",
               "RSpec",
+              "Sidekiq",
+              "Rollbar"
             ],
           },
           {

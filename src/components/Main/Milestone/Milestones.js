@@ -26,59 +26,15 @@ export const Milestones = {
         end: "2021",
         list: [
           {
-            title: "Ruby",
+            title: "Skills",
             structure: [
-              "OOP",
-              "Métodos recursivos",
-              "Estructura de datos",
-              "Testing(Rspec)",
+              "Ruby",
+              "Rails",
+              "HTML/CSS",
+              "Javascript",
+              "NodeJs"
             ],
-          },
-          {
-            title: "Rails",
-            structure: [
-              "MVC",
-              "ActiveRecords",
-              "Autenticación",
-              "APIs",
-              "Mailers",
-            ],
-          },
-          {
-            title: "HTML/CSS",
-            structure: [
-              "CSS basics",
-              "Flexbox & Grid",
-              "Diseño & UX",
-              "Diseño Responsivo",
-              "Bootstrap",
-              "Sass",
-            ],
-          },
-          {
-            title: "JavaScript",
-            structure: [
-              "Factory Functions & Classes",
-              "Modulos",
-              "Linting",
-              "Webpack",
-              "Forms",
-              "ES",
-              "AsyncJs",
-              "ReactJs",
-              "Testing",
-            ],
-          },
-          {
-            title: "NodeJs",
-            structure: [
-              "Express",
-              "MongoDB",
-              "Authentication",
-              "APIs",
-              "Testing",
-            ],
-          },
+          }
         ],
         area: "programming",
       },
@@ -130,26 +86,14 @@ export const Milestones = {
         area: "programming",
         list: [
           {
-            title: "BackEnd",
+            title: "Principales logros",
             structure: [
-              "Desarrollo y mejora de productos digitales",
-              "Ruby on Rails",
-              "PostgreSql",
-              "RSpec",
-              "Sidekiq",
-              "Rollbar",
-              "Datadog"
-            ],
-          },
-          {
-            title: "Tools",
-            structure: [
-              "Scrum/Kanban",
-              "Jira",
-              "Git/Github",
-              "Slack"
-            ],
-          },
+              "Lanzamiento de nuevo producto digital",
+              "Optimizacion de tiempos de respuesta de endpoints",
+              "Migracion de libreria utilizada para serializacion",
+              "Aprender a utilizar Datadog como herramienta de monitoreo"
+            ]
+          }
         ],
       },
       {
@@ -159,33 +103,13 @@ export const Milestones = {
         area: "programming",
         list: [
           {
-            title: "BackEnd",
+            title: "Principales logros",
             structure: [
-              "Desarrollo de nuevas features",
-              "Ruby on Rails",
-              "PostgreSql",
-              "RSpec",
-              "Sidekiq",
-              "Rollbar"
+              "Usar TDD para desarrollar",
+              "Ampliar conocimiento de RSpec",
+              "Implementar patron de diseño de eventos en Rails"
             ],
-          },
-          {
-            title: "CI/CD",
-            structure: [
-              "Docker",
-              "Kubernetes",
-              "AWS"
-            ],
-          },
-          {
-            title: "Tools",
-            structure: [
-              "Scrum/Kanban",
-              "Jira",
-              "Git/Github",
-              "Slack"
-            ],
-          },
+          }
         ],
       },
       {
@@ -239,7 +163,7 @@ export const Milestones = {
         title: "The Fundamentals of Backend",
         url: "https://www.udemy.com/share/107rGq3@UAyCjZcRsfXDZxTZVbto0WnAstH9dDLXIpN0gpKt3wfaeDMDiPH6-k8cH4xkxHt1qw==/",
         start: "Jun 2023",
-        end: "En curso",
+        end: "Ongoing",
         list: [
           {
             title: "Backend fundamentals",
@@ -261,59 +185,15 @@ export const Milestones = {
         area: "programming",
         list: [
           {
-            title: "Ruby",
+            title: "Skills",
             structure: [
-              "OOP",
-              "Recursive Methods",
-              "Data Structures",
-              "Testing(Rspec)",
+              "Ruby",
+              "Rails",
+              "HTML/CSS",
+              "Javascript",
+              "NodeJs"
             ],
-          },
-          {
-            title: "Rails",
-            structure: [
-              "MVC",
-              "ActiveRecords",
-              "Authentication",
-              "APIs",
-              "Mailers",
-            ],
-          },
-          {
-            title: "HTML/CSS",
-            structure: [
-              "CSS basics",
-              "Flexbox & Grid",
-              "Design & UX",
-              "Responsive Design",
-              "Bootstrap",
-              "Sass",
-            ],
-          },
-          {
-            title: "JavaScript",
-            structure: [
-              "Factory Functions & Classes",
-              "Modules",
-              "Linting",
-              "Webpack",
-              "Forms",
-              "ES",
-              "AsyncJs",
-              "ReactJs",
-              "Testing",
-            ],
-          },
-          {
-            title: "NodeJs",
-            structure: [
-              "Express",
-              "MongoDB",
-              "Authentication",
-              "APIs",
-              "Testing",
-            ],
-          },
+          }
         ],
       },
       {
@@ -364,26 +244,14 @@ export const Milestones = {
         area: "programming",
         list: [
           {
-            title: "BackEnd",
+            title: "Main Achievements",
             structure: [
-              "Develop and improvement of digital products",
-              "Ruby on Rails",
-              "PostgreSql",
-              "RSpec",
-              "Sidekiq",
-              "Rollbar",
-              "Datadog"
-            ],
-          },
-          {
-            title: "Tools",
-            structure: [
-              "Scrum/Kanban",
-              "Jira",
-              "Git/Github",
-              "Slack"
-            ],
-          },
+              "Develop of new digital product",
+              "Response time optimization for endpoints",
+              "Migrate serialization library",
+              "Learn to use Datadog as a monitoring tool"
+            ]
+          }
         ],
       },
       {
@@ -393,33 +261,13 @@ export const Milestones = {
         area: "programming",
         list: [
           {
-            title: "BackEnd",
+            title: "Main Achievements",
             structure: [
-              "Development of new features",
-              "Ruby on Rails",
-              "PostgreSql",
-              "RSpec",
-              "Sidekiq",
-              "Rollbar"
+              "Use TDD for development",
+              "Expand knowledge of RSpec",
+              "Implement event design pattern in Rails"
             ],
-          },
-          {
-            title: "CI/CD",
-            structure: [
-              "Docker",
-              "Kubernetes",
-              "AWS"
-            ],
-          },
-          {
-            title: "Tools",
-            structure: [
-              "Scrum/Kanban",
-              "Jira",
-              "Git/Github",
-              "Slack"
-            ],
-          },
+          }
         ],
       },
       {

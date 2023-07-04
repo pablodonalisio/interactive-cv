@@ -11,7 +11,10 @@ const data = {
     "Debido al gran auge e increíble potencial que observe en la programación " +
       "decidí comenzar mis estudios como " +
       "Desarrollador Fullstack donde aprendi lenguajes de programación, " +
-      "frameworks, herramientas para el desarrollo y muchas cosas más"
+      "frameworks, herramientas para el desarrollo y muchas cosas más",
+    "A fines de 2021 logre conseguir mi primer trabajo como desarrollador y " +
+      "a partir de ahi pude lograr ahondar mis conocimientos en muchos aspectos " +
+      "principalmente en el desarrllo de Backend"
   ],
   EN: [
     "I've studied up to 4th year of Mechanical Engineering's Degree at " +
@@ -22,6 +25,8 @@ const data = {
       "I began my studies as a Fullstack Developer " +
       "learning programming languages, frameworks, " +
       "development tools and many other things.",
+      "At the end of 2021 I managed to get my first job as a developer and from there " +
+        "I was able to deepen my knowledge in many aspects, mainly in Backend development."
   ],
 };
 function About() {

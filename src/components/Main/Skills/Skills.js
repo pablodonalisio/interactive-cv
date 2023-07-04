@@ -19,8 +19,7 @@ function Skills() {
   const skills = data.skills
     .filter((skill) => {
       return typeId ? typeId === skill.type_id.toString() : true;
-    })
-    .sort((a, b) => (a.type_id < b.type_id ? -1 : 1));
+    });
   return (
     <>
       <section className="skills box">

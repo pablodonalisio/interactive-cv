@@ -1,6 +1,21 @@
 export const data = {
   skills: [
     {
+      name: "Ruby",
+      file: "ruby.png",
+      type_id: 1,
+    },
+    {
+      name: "Rails",
+      file: "rails.png",
+      type_id: 2,
+    },
+    {
+      name: "PostgreSQL",
+      file: "postgresql.png",
+      type_id: 3,
+    },
+    {
       name: "HTML5",
       file: "html5.png",
       type_id: 1,
@@ -21,19 +36,9 @@ export const data = {
       type_id: 2,
     },
     {
-      name: "Ruby",
-      file: "ruby.png",
-      type_id: 1,
-    },
-    {
-      name: "Rails",
-      file: "rails.png",
+      name: "NodeJs",
+      file: "nodejs.png",
       type_id: 2,
-    },
-    {
-      name: "PostgreSQL",
-      file: "postgresql.png",
-      type_id: 3,
     },
     {
       name: "Git",
@@ -44,27 +49,22 @@ export const data = {
       name: "Github",
       file: "github.png",
       type_id: 4,
-    },
-    {
-      name: "Linux",
-      file: "linux.png",
-      type_id: 5,
-    },
-    {
-      name: "NodeJs",
-      file: "nodejs.png",
-      type_id: 2,
-    },
-    {
-      name: "MongoDB",
-      file: "mongodb.png",
-      type_id: 3,
-    },
-    {
-      name: "Heroku",
-      file: "heroku.png",
-      type_id: 6,
-    },
+    }
+    // {
+    //   name: "Linux",
+    //   file: "linux.png",
+    //   type_id: 5,
+    // },
+    // {
+    //   name: "MongoDB",
+    //   file: "mongodb.png",
+    //   type_id: 3,
+    // },
+    // {
+    //   name: "Heroku",
+    //   file: "heroku.png",
+    //   type_id: 6,
+    // },
   ],
   types: [
     {

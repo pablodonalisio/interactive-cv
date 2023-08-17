@@ -2,10 +2,27 @@ export const Milestones = {
   ES: {
     Educación: [
       {
+        title: "The Fundamentals of Database Engineering",
+        url: "https://www.udemy.com/course/database-engines-crash-course/",
+        start: "Jul 2023",
+        end: "Ago 2023",
+        list: [
+          {
+            title: "Database fundamentals",
+            structure: [
+              "ACID properties",
+              "Indexes, Partition, Replication, Sharding",
+              "Database Management System, Database Engine and Embedded database"
+            ],
+          }
+        ],
+        area: "programming",
+      },
+      {
         title: "The Fundamentals of Backend",
         url: "https://www.udemy.com/share/107rGq3@UAyCjZcRsfXDZxTZVbto0WnAstH9dDLXIpN0gpKt3wfaeDMDiPH6-k8cH4xkxHt1qw==/",
         start: "Jun 2023",
-        end: "En curso",
+        end: "Jul 2023",
         list: [
           {
             title: "Backend fundamentals",
@@ -160,10 +177,27 @@ export const Milestones = {
   EN: {
     Education: [
       {
+        title: "The Fundamentals of Database Engineering",
+        url: "https://www.udemy.com/course/database-engines-crash-course/",
+        start: "Jul 2023",
+        end: "Ago 2023",
+        list: [
+          {
+            title: "Database fundamentals",
+            structure: [
+              "ACID properties",
+              "Indexes, Partition, Replication, Sharding",
+              "Database Management System, Database Engine and Embedded database"
+            ],
+          }
+        ],
+        area: "programming",
+      },
+      {
         title: "The Fundamentals of Backend",
         url: "https://www.udemy.com/share/107rGq3@UAyCjZcRsfXDZxTZVbto0WnAstH9dDLXIpN0gpKt3wfaeDMDiPH6-k8cH4xkxHt1qw==/",
         start: "Jun 2023",
-        end: "Ongoing",
+        end: "Jul 2023",
         list: [
           {
             title: "Backend fundamentals",

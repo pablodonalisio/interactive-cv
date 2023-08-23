@@ -291,7 +291,7 @@ export const Milestones = {
       {
         title: "INCREASE - Backend Developer",
         start: "Nov 2021",
-        end: "Currently",
+        end: "Sep 2022",
         area: "programming",
         list: [
           {

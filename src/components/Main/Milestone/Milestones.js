@@ -12,9 +12,9 @@ export const Milestones = {
             structure: [
               "ACID properties",
               "Indexes, Partition, Replication, Sharding",
-              "Database Management System, Database Engine and Embedded database"
+              "Database Management System, Database Engine and Embedded database",
             ],
-          }
+          },
         ],
         area: "programming",
       },
@@ -32,7 +32,7 @@ export const Milestones = {
               "Backend execution patterns",
               "Proxying and Loadbalancing",
             ],
-          }
+          },
         ],
         area: "programming",
       },
@@ -44,14 +44,8 @@ export const Milestones = {
         list: [
           {
             title: "Skills",
-            structure: [
-              "Ruby",
-              "Rails",
-              "HTML/CSS",
-              "Javascript",
-              "NodeJs"
-            ],
-          }
+            structure: ["Ruby", "Rails", "HTML/CSS", "Javascript", "NodeJs"],
+          },
         ],
         area: "programming",
       },
@@ -97,6 +91,18 @@ export const Milestones = {
     ],
     Experiencia: [
       {
+        title: "Freelance - Fullstack Developer",
+        start: "Oct 2023",
+        end: "presente",
+        area: "programming",
+        list: [
+          {
+            title: "Principales logros",
+            structure: ["Usar el nuevo ecosystema Hotwire de Rails"],
+          },
+        ],
+      },
+      {
         title: "WISBOO - Desarrollador BackEnd",
         start: "Sep 2022",
         end: "Jun 2023",
@@ -108,9 +114,9 @@ export const Milestones = {
               "Lanzamiento de nuevo producto digital",
               "Optimizacion de tiempos de respuesta de endpoints",
               "Migracion de libreria utilizada para serializacion",
-              "Aprender a utilizar Datadog como herramienta de monitoreo"
-            ]
-          }
+              "Aprender a utilizar Datadog como herramienta de monitoreo",
+            ],
+          },
         ],
       },
       {
@@ -124,9 +130,9 @@ export const Milestones = {
             structure: [
               "Usar TDD para desarrollar",
               "Ampliar conocimiento de RSpec",
-              "Implementar patron de diseño de eventos en Rails"
+              "Implementar patron de diseño de eventos en Rails",
             ],
-          }
+          },
         ],
       },
       {
@@ -187,9 +193,9 @@ export const Milestones = {
             structure: [
               "ACID properties",
               "Indexes, Partition, Replication, Sharding",
-              "Database Management System, Database Engine and Embedded database"
+              "Database Management System, Database Engine and Embedded database",
             ],
-          }
+          },
         ],
         area: "programming",
       },
@@ -207,7 +213,7 @@ export const Milestones = {
               "Backend execution patterns",
               "Proxying and Loadbalancing",
             ],
-          }
+          },
         ],
         area: "programming",
       },
@@ -220,14 +226,8 @@ export const Milestones = {
         list: [
           {
             title: "Skills",
-            structure: [
-              "Ruby",
-              "Rails",
-              "HTML/CSS",
-              "Javascript",
-              "NodeJs"
-            ],
-          }
+            structure: ["Ruby", "Rails", "HTML/CSS", "Javascript", "NodeJs"],
+          },
         ],
       },
       {
@@ -272,6 +272,18 @@ export const Milestones = {
     ],
     Experience: [
       {
+        title: "Freelance - Fullstack Developer",
+        start: "Oct 2023",
+        end: "present",
+        area: "programming",
+        list: [
+          {
+            title: "Main Achievements",
+            structure: ["Use the new Rails's Hotwire ecosystem"],
+          },
+        ],
+      },
+      {
         title: "WISBOO - Backend Developer",
         start: "Sep 2022",
         end: "Jun 2023",
@@ -283,9 +295,9 @@ export const Milestones = {
               "Develop of new digital product",
               "Response time optimization for endpoints",
               "Migrate serialization library",
-              "Learn to use Datadog as a monitoring tool"
-            ]
-          }
+              "Learn to use Datadog as a monitoring tool",
+            ],
+          },
         ],
       },
       {
@@ -299,9 +311,9 @@ export const Milestones = {
             structure: [
               "Use TDD for development",
               "Expand knowledge of RSpec",
-              "Implement event design pattern in Rails"
+              "Implement event design pattern in Rails",
             ],
-          }
+          },
         ],
       },
       {

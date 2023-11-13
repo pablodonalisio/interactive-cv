@@ -4,29 +4,19 @@ import { useGlobalContext } from "../../../context";
 
 const data = {
   ES: [
-    "Estudié hasta 4to año de Ingeniería Mecánica en la Universidad " +
-      "Tecnológica Nacional y trabajé durante muchos años en la industria " +
-      "Metalmecánica. Allí mis principales roles fueron como Programador CNC, " +
-      "Diseñador CAD/CAM y Gestor de procesos.",
-    "Debido al gran auge e increíble potencial que observe en la programación " +
-      "decidí comenzar mis estudios como " +
-      "Desarrollador Fullstack donde aprendi lenguajes de programación, " +
+    "Comence mis estudios como Desarrollador Fulstack a mediados del " +
+      "2020, donde aprendi lenguajes de programación, " +
       "frameworks, herramientas para el desarrollo y muchas cosas más",
     "A fines de 2021 logre conseguir mi primer trabajo como desarrollador y " +
       "a partir de ahi pude lograr ahondar mis conocimientos en muchos aspectos " +
-      "principalmente en el desarrllo de Backend"
+      "principalmente en el desarrllo de Backend",
   ],
   EN: [
-    "I've studied up to 4th year of Mechanical Engineering's Degree at " +
-      "Universidad Tecnológica Nacional in Córdoba, Argentina. Also worked " +
-      "for many years in that area. My main roles there were " +
-      "as CNC Programmer, CAD / CAM Designer and Process Manager.",
-    "When I saw the incredible growth of programming and its extraordinary potential, " +
-      "I began my studies as a Fullstack Developer " +
+    "I began my studies as a Fullstack Developer in 2020 " +
       "learning programming languages, frameworks, " +
       "development tools and many other things.",
-      "At the end of 2021 I managed to get my first job as a developer and from there " +
-        "I was able to deepen my knowledge in many aspects, mainly in Backend development."
+    "At the end of 2021 I managed to get my first job as a developer and from there " +
+      "I was able to deepen my knowledge in many aspects, mainly in Backend development.",
   ],
 };
 function About() {

@@ -1,20 +1,18 @@
 import React from "react";
 import "./Main.css";
-import About from "./About/About";
 import MilestoneBox from "./Milestone/MilestoneBox";
 import Skills from "./Skills/Skills";
 import { useGlobalContext } from "../../context";
 
 function Main() {
   const { lang, fields } = useGlobalContext();
-  const orderedFields = ["about", "experience", "education", "skills"].filter(
-    (field) => fields.includes(field)
+  const orderedFields = ["experience", "education", "skills"].filter((field) =>
+    fields.includes(field)
   );
   return (
     <>
       <section className="main column">
         {orderedFields.map((field, idx) => {
-          if (field === "about") return <About key={idx} />;
           if (field === "experience")
             return (
               <MilestoneBox

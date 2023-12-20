@@ -98,7 +98,12 @@ export const Milestones = {
         list: [
           {
             title: "Principales logros",
-            structure: ["Usar el nuevo ecosystema Hotwire de Rails"],
+            structure: [
+              "Desarrollo Fullstack de aplicacion para mantenimiento preventivo de maquinas electricas",
+              "Uso del nuevo ecosistema Hotwire de Rails",
+              "Uso de Docker para desarrollo y deployment",
+              "Gestion de proyecto en su totalidad",
+            ],
           },
         ],
       },
@@ -279,7 +284,12 @@ export const Milestones = {
         list: [
           {
             title: "Main Achievements",
-            structure: ["Use the new Rails's Hotwire ecosystem"],
+            structure: [
+              "Fullstack development of application for preventive maintenance of electrical machines",
+              "Use of the new Rails' Hotwire ecosystem",
+              "Use of Docker for development and deployment",
+              "Complete project management",
+            ],
           },
         ],
       },

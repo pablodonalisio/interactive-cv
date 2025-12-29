@@ -16,10 +16,9 @@ const categories = [
 function Skills() {
   const { lang } = useGlobalContext();
   const [typeId, setTypeId] = useState("");
-  const skills = data.skills
-    .filter((skill) => {
-      return typeId ? typeId === skill.type_id.toString() : true;
-    });
+  const skills = data.skills.filter((skill) => {
+    return typeId ? typeId === skill.type_id.toString() : true;
+  });
   return (
     <>
       <section className="skills box">
@@ -29,8 +28,12 @@ function Skills() {
             return (
               <figure key={idx}>
                 <img
-                  src={`images/${skill.file}`}
+                  src={`/images/${skill.file}`}
                   alt={skill.name.toLowerCase()}
+                  onError={(e) => {
+                    e.target.onerror = null;
+                    e.target.src = "/images/tenor.gif";
+                  }}
                 />
                 <figcaption>{skill.name}</figcaption>
               </figure>

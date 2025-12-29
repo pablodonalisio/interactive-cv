@@ -6,16 +6,6 @@ export const Milestones = {
         url: "https://www.udemy.com/course/database-engines-crash-course/",
         start: "Jul 2023",
         end: "Ago 2023",
-        list: [
-          {
-            title: "Database fundamentals",
-            structure: [
-              "ACID properties",
-              "Indexes, Partition, Replication, Sharding",
-              "Database Management System, Database Engine and Embedded database",
-            ],
-          },
-        ],
         area: "programming",
       },
       {
@@ -23,17 +13,6 @@ export const Milestones = {
         url: "https://www.udemy.com/share/107rGq3@UAyCjZcRsfXDZxTZVbto0WnAstH9dDLXIpN0gpKt3wfaeDMDiPH6-k8cH4xkxHt1qw==/",
         start: "Jun 2023",
         end: "Jul 2023",
-        list: [
-          {
-            title: "Backend fundamentals",
-            structure: [
-              "Backend communication design patterns",
-              "Protocols",
-              "Backend execution patterns",
-              "Proxying and Loadbalancing",
-            ],
-          },
-        ],
         area: "programming",
       },
       {
@@ -92,7 +71,7 @@ export const Milestones = {
     Experiencia: [
       {
         title: "Freelance - Fullstack Developer",
-        start: "Oct 2023",
+        start: "Ene 2025",
         end: "presente",
         area: "programming",
         list: [
@@ -103,6 +82,21 @@ export const Milestones = {
               "Uso del nuevo ecosistema Hotwire de Rails",
               "Uso de Docker para desarrollo y deployment",
               "Gestion de proyecto en su totalidad",
+            ],
+          },
+        ],
+      },
+      {
+        title: "GoCuotas - Desarrollador BackEnd",
+        start: "Nov 2024",
+        end: "Dec 2025",
+        area: "programming",
+        list: [
+          {
+            title: "Principales logros",
+            structure: [
+              "Desarrollo de nuevas features",
+              "Configuracion de chatbots para atencion al cliente",
             ],
           },
         ],
@@ -192,16 +186,6 @@ export const Milestones = {
         url: "https://www.udemy.com/course/database-engines-crash-course/",
         start: "Jul 2023",
         end: "Ago 2023",
-        list: [
-          {
-            title: "Database fundamentals",
-            structure: [
-              "ACID properties",
-              "Indexes, Partition, Replication, Sharding",
-              "Database Management System, Database Engine and Embedded database",
-            ],
-          },
-        ],
         area: "programming",
       },
       {
@@ -209,17 +193,6 @@ export const Milestones = {
         url: "https://www.udemy.com/share/107rGq3@UAyCjZcRsfXDZxTZVbto0WnAstH9dDLXIpN0gpKt3wfaeDMDiPH6-k8cH4xkxHt1qw==/",
         start: "Jun 2023",
         end: "Jul 2023",
-        list: [
-          {
-            title: "Backend fundamentals",
-            structure: [
-              "Backend communication design patterns",
-              "Protocols",
-              "Backend execution patterns",
-              "Proxying and Loadbalancing",
-            ],
-          },
-        ],
         area: "programming",
       },
       {
@@ -278,7 +251,7 @@ export const Milestones = {
     Experience: [
       {
         title: "Freelance - Fullstack Developer",
-        start: "Oct 2023",
+        start: "Jan 2025",
         end: "present",
         area: "programming",
         list: [
@@ -289,6 +262,21 @@ export const Milestones = {
               "Use of the new Rails' Hotwire ecosystem",
               "Use of Docker for development and deployment",
               "Complete project management",
+            ],
+          },
+        ],
+      },
+      {
+        title: "GoCuotas - Backend Developer",
+        start: "Nov 2024",
+        end: "Dec 2025",
+        area: "programming",
+        list: [
+          {
+            title: "Main Achievements",
+            structure: [
+              "Development of new features",
+              "Configuration of chatbots for customer service",
             ],
           },
         ],

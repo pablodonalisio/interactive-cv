@@ -88,8 +88,8 @@ export const Milestones = {
       },
       {
         title: "GoCuotas - Desarrollador BackEnd",
-        start: "Nov 2024",
-        end: "Dec 2025",
+        start: "Feb 2024",
+        end: "Nov 2024",
         area: "programming",
         list: [
           {
@@ -268,8 +268,8 @@ export const Milestones = {
       },
       {
         title: "GoCuotas - Backend Developer",
-        start: "Nov 2024",
-        end: "Dec 2025",
+        start: "Feb 2024",
+        end: "Nov 2024",
         area: "programming",
         list: [
           {

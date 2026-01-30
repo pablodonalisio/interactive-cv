@@ -47,8 +47,8 @@ export const Milestones = {
       {
         title: "AI Automation: Build LLM Apps & AI-Agents with n8n & APIs",
         url: "https://www.udemy.com/course/ai-automation-build-llm-apps-ai-agents-with-n8n-apis/?srsltid=AfmBOopEr3WXDAdCxJ2mk36YT9JF2RCqkQvrL_OBjCp7kF9jhJ7CDDdR",
-        start: "Jun 2025",
-        end: "Jul 2025",
+        start: "Jun 2024",
+        end: "Jul 2024",
         area: "programming",
         list: [
           {
@@ -241,8 +241,8 @@ export const Milestones = {
       {
         title: "AI Automation: Build LLM Apps & AI-Agents with n8n & APIs",
         url: "https://www.udemy.com/course/ai-automation-build-llm-apps-ai-agents-with-n8n-apis/?srsltid=AfmBOopEr3WXDAdCxJ2mk36YT9JF2RCqkQvrL_OBjCp7kF9jhJ7CDDdR",
-        start: "Jun 2025",
-        end: "Jul 2025",
+        start: "Jun 2024",
+        end: "Jul 2024",
         area: "programming",
         list: [
           {

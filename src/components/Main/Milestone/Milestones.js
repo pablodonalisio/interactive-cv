@@ -2,20 +2,6 @@ export const Milestones = {
   ES: {
     Educación: [
       {
-        title: "The Fundamentals of Database Engineering",
-        url: "https://www.udemy.com/course/database-engines-crash-course/",
-        start: "Jul 2023",
-        end: "Ago 2023",
-        area: "programming",
-      },
-      {
-        title: "The Fundamentals of Backend",
-        url: "https://www.udemy.com/share/107rGq3@UAyCjZcRsfXDZxTZVbto0WnAstH9dDLXIpN0gpKt3wfaeDMDiPH6-k8cH4xkxHt1qw==/",
-        start: "Jun 2023",
-        end: "Jul 2023",
-        area: "programming",
-      },
-      {
         title: "The Odin Project - Full Stack Ruby on Rails and NodeJS",
         url: "https://www.theodinproject.com/paths/full-stack-ruby-on-rails?",
         start: "2020",
@@ -27,6 +13,51 @@ export const Milestones = {
           },
         ],
         area: "programming",
+      },
+      {
+        title: "The Fundamentals of Database Engineering",
+        url: "https://www.udemy.com/course/database-engines-crash-course/",
+        start: "Jul 2023",
+        end: "Ago 2023",
+        area: "programming",
+        list: [
+          {
+            title: "Skills",
+            structure: [
+              "ACID, Indexing, Partitioning, Sharding, Concurrency control, Replication, DB Engines y buenas prácticas",
+            ],
+          },
+        ],
+      },
+      {
+        title: "The Fundamentals of Backend",
+        url: "https://www.udemy.com/share/107rGq3@UAyCjZcRsfXDZxTZVbto0WnAstH9dDLXIpN0gpKt3wfaeDMDiPH6-k8cH4xkxHt1qw==/",
+        start: "Jun 2023",
+        end: "Jul 2023",
+        area: "programming",
+        list: [
+          {
+            title: "Skills",
+            structure: [
+              "Entender patrones de diseño de comunicación backend, protocolos, ejecución y proxying",
+            ],
+          },
+        ],
+      },
+      {
+        title: "AI Automation: Build LLM Apps & AI-Agents with n8n & APIs",
+        url: "https://www.udemy.com/course/ai-automation-build-llm-apps-ai-agents-with-n8n-apis/?srsltid=AfmBOopEr3WXDAdCxJ2mk36YT9JF2RCqkQvrL_OBjCp7kF9jhJ7CDDdR",
+        start: "Jun 2025",
+        end: "Jul 2025",
+        area: "programming",
+        list: [
+          {
+            title: "Skills",
+            structure: [
+              "Fundamentos de Automatización, n8n, Integraciones con APIs, Creación de Apps con LLMs, Desarrollo de AI-Agents",
+            ],
+          },
+        ],
       },
       {
         title: "Ingeniería Mecánica - Universidad Tecnológica Nacional",
@@ -182,20 +213,6 @@ export const Milestones = {
   EN: {
     Education: [
       {
-        title: "The Fundamentals of Database Engineering",
-        url: "https://www.udemy.com/course/database-engines-crash-course/",
-        start: "Jul 2023",
-        end: "Ago 2023",
-        area: "programming",
-      },
-      {
-        title: "The Fundamentals of Backend",
-        url: "https://www.udemy.com/share/107rGq3@UAyCjZcRsfXDZxTZVbto0WnAstH9dDLXIpN0gpKt3wfaeDMDiPH6-k8cH4xkxHt1qw==/",
-        start: "Jun 2023",
-        end: "Jul 2023",
-        area: "programming",
-      },
-      {
         title: "The Odin Project - Full Stack Ruby on Rails",
         url: "https://www.theodinproject.com/paths/full-stack-ruby-on-rails?",
         start: "2020",
@@ -205,6 +222,51 @@ export const Milestones = {
           {
             title: "Skills",
             structure: ["Ruby", "Rails", "HTML/CSS", "Javascript", "NodeJs"],
+          },
+        ],
+      },
+      {
+        title: "The Fundamentals of Database Engineering",
+        url: "https://www.udemy.com/course/database-engines-crash-course/",
+        start: "Jul 2023",
+        end: "Ago 2023",
+        area: "programming",
+        list: [
+          {
+            title: "Skills",
+            structure: [
+              "ACID, Indexing, Partitioning, Sharding, Concurrency control, Replication, DB Engines, Best Practices",
+            ],
+          },
+        ],
+      },
+      {
+        title: "The Fundamentals of Backend",
+        url: "https://www.udemy.com/share/107rGq3@UAyCjZcRsfXDZxTZVbto0WnAstH9dDLXIpN0gpKt3wfaeDMDiPH6-k8cH4xkxHt1qw==/",
+        start: "Jun 2023",
+        end: "Jul 2023",
+        area: "programming",
+        list: [
+          {
+            title: "Skills",
+            structure: [
+              "Understand backend communication design patterns, protocols, execution and proxying",
+            ],
+          },
+        ],
+      },
+      {
+        title: "AI Automation: Build LLM Apps & AI-Agents with n8n & APIs",
+        url: "https://www.udemy.com/course/ai-automation-build-llm-apps-ai-agents-with-n8n-apis/?srsltid=AfmBOopEr3WXDAdCxJ2mk36YT9JF2RCqkQvrL_OBjCp7kF9jhJ7CDDdR",
+        start: "Jun 2025",
+        end: "Jul 2025",
+        area: "programming",
+        list: [
+          {
+            title: "Skills",
+            structure: [
+              "Fundamentals of Automation, n8n, API Integrations, LLM Apps Creation, AI-Agents Development",
+            ],
           },
         ],
       },

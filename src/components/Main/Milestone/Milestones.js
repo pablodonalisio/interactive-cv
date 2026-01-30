@@ -9,7 +9,7 @@ export const Milestones = {
         list: [
           {
             title: "Skills",
-            structure: ["Ruby", "Rails", "HTML/CSS", "Javascript", "NodeJs"],
+            structure: ["Ruby/Rails", "HTML/CSS", "Javascript/NodeJs"],
           },
         ],
         area: "programming",
@@ -109,10 +109,9 @@ export const Milestones = {
           {
             title: "Principales logros",
             structure: [
-              "Desarrollo Fullstack de aplicacion para mantenimiento preventivo de maquinas electricas",
-              "Uso del nuevo ecosistema Hotwire de Rails",
-              "Uso de Docker para desarrollo y deployment",
-              "Gestion de proyecto en su totalidad",
+              "Desarrollo de aplicación en Ruby on Rails desde cero para gestionar equipos industriales y servicios de mantenimiento",
+              "Manejo de despliegue, monitoreo y mantenimiento continuo",
+              "Trabajo directo con stakeholders para recopilar requisitos e iterar sobre funcionalidades",
             ],
           },
         ],
@@ -126,8 +125,9 @@ export const Milestones = {
           {
             title: "Principales logros",
             structure: [
-              "Desarrollo de nuevas features",
-              "Configuracion de chatbots para atencion al cliente",
+              "Implementación del seguimiento del ciclo de vida del usuario (onboarding, activo, inactivo) para usuarios administradores",
+              "Integración y personalización de flujos de chatbots de soporte al cliente basados en el contexto del usuario",
+              "Colaboración con los equipos de producto y soporte para mejorar el compromiso del usuario",
             ],
           },
         ],
@@ -141,26 +141,9 @@ export const Milestones = {
           {
             title: "Principales logros",
             structure: [
-              "Lanzamiento de nuevo producto digital",
-              "Optimizacion de tiempos de respuesta de endpoints",
-              "Migracion de libreria utilizada para serializacion",
-              "Aprender a utilizar Datadog como herramienta de monitoreo",
-            ],
-          },
-        ],
-      },
-      {
-        title: "INCREASE - Desarrollador BackEnd",
-        start: "Nov 2021",
-        end: "Sep 2022",
-        area: "programming",
-        list: [
-          {
-            title: "Principales logros",
-            structure: [
-              "Usar TDD para desarrollar",
-              "Ampliar conocimiento de RSpec",
-              "Implementar patron de diseño de eventos en Rails",
+              "Mejora de los tiempos de respuesta de la API en un 80-90% mediante la optimización de consultas a la base de datos",
+              "Identificación de cuellos de botella en el rendimiento y refactorización de partes críticas de la aplicación",
+              "Uso de Datadog para analizar logs, errores y latencia de endpoints",
             ],
           },
         ],
@@ -221,7 +204,7 @@ export const Milestones = {
         list: [
           {
             title: "Skills",
-            structure: ["Ruby", "Rails", "HTML/CSS", "Javascript", "NodeJs"],
+            structure: ["Ruby/Rails", "HTML/CSS", "Javascript/NodeJs"],
           },
         ],
       },
@@ -320,10 +303,9 @@ export const Milestones = {
           {
             title: "Main Achievements",
             structure: [
-              "Fullstack development of application for preventive maintenance of electrical machines",
-              "Use of the new Rails' Hotwire ecosystem",
-              "Use of Docker for development and deployment",
-              "Complete project management",
+              "Development of a Ruby on Rails application from scratch to manage industrial equipment and maintenance services",
+              "Handling deployment, monitoring, and ongoing maintenance",
+              "Direct work with stakeholders to gather requirements and iterate on features",
             ],
           },
         ],
@@ -337,8 +319,9 @@ export const Milestones = {
           {
             title: "Main Achievements",
             structure: [
-              "Development of new features",
-              "Configuration of chatbots for customer service",
+              "Implemented user lifecycle tracking (onboarding, active, inactive) for admin users",
+              "Integrated and customized customer support chatbot flows based on user context",
+              "Collaborated with product and support teams to improve user engagement",
             ],
           },
         ],
@@ -352,26 +335,9 @@ export const Milestones = {
           {
             title: "Main Achievements",
             structure: [
-              "Develop of new digital product",
-              "Response time optimization for endpoints",
-              "Migrate serialization library",
-              "Learn to use Datadog as a monitoring tool",
-            ],
-          },
-        ],
-      },
-      {
-        title: "INCREASE - Backend Developer",
-        start: "Nov 2021",
-        end: "Sep 2022",
-        area: "programming",
-        list: [
-          {
-            title: "Main Achievements",
-            structure: [
-              "Use TDD for development",
-              "Expand knowledge of RSpec",
-              "Implement event design pattern in Rails",
+              "Improved API response times by up to 80/90% by optimizing database queries",
+              "Identified performance bottlenecks and refactored critical parts of the application",
+              "Used Datadog to analyze logs, errors and endpoint latency",
             ],
           },
         ],

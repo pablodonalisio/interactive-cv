@@ -16,14 +16,14 @@ export const data = {
       type_id: 3,
     },
     {
-      name: "HTML5",
-      file: "html5.png",
-      type_id: 1,
+      name: "git",
+      file: "git.png",
+      type_id: 4,
     },
     {
-      name: "CSS3",
-      file: "CSS3.svg",
-      type_id: 1,
+      name: "github",
+      file: "github.png",
+      type_id: 4,
     },
     {
       name: "JavaScript",
@@ -31,25 +31,15 @@ export const data = {
       type_id: 1,
     },
     {
-      name: "ReactJs",
-      file: "React.png",
-      type_id: 2,
-    },
-    {
-      name: "NodeJs",
-      file: "nodejs.png",
-      type_id: 2,
-    },
-    {
-      name: "Git",
-      file: "git.png",
+      name: "Docker",
+      file: "docker.jpeg",
       type_id: 4,
     },
     {
-      name: "Github",
-      file: "github.png",
-      type_id: 4,
-    }
+      name: "n8n",
+      file: "n8n.png",
+      type_id: 5,
+    },
     // {
     //   name: "Linux",
     //   file: "linux.png",

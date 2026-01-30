@@ -8,9 +8,8 @@ const categories = [
   { value: 1, ES: "Lenguajes de Programacion", EN: "Programming Languages" },
   { value: 2, ES: "Frameworks", EN: "Frameworks" },
   { value: 3, ES: "Base de Datos", EN: "Databases" },
-  { value: 4, ES: "Control de Versiones", EN: "Version Control" },
-  { value: 5, ES: "Sistemas Operativos", EN: "Operative Systems" },
-  { value: 6, ES: "Nube", EN: "Cloud" },
+  { value: 4, ES: "Infraestructura", EN: "Infrastructure" },
+  { value: 5, ES: "IA", EN: "AI" },
 ];
 
 function Skills() {
